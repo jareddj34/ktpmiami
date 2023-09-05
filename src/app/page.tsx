@@ -34,11 +34,11 @@ export default function Home() {
                             className="w-full rounded-xl object-cover shadow-lg mt-10"
                         />
                         <Image
-                            src="/images/UMiamiLogo.jpg"
+                            src="/images/VerticalMeetingPic.jpeg"
                             alt=""
-                            height={128}
-                            width={128}
-                            className="w-full rounded-xl object-cover shadow-lg"
+                            height={800}
+                            width={800}
+                            className="w-full rounded-xl shadow-lg"
                         />
                         <Image
                             src="/images/JaredPlayingVR.jpeg"

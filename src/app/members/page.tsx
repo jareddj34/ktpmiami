@@ -63,7 +63,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/ZoeyPic.JPG"
+                                src="/images/headshots/ZoeyPic.JPEG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"

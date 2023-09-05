@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
     return (
         <>
-            <div className="row flex flex-col lg:flex-row mt-10">
+            <div className="row flex flex-col lg:flex-row mt-10 mb-40">
                 <div className="space-y-4 col-lg-7 col-md-6">
                     <h1 className="flex justify-left text-5xl mt-4 font-bold">
                         About Us
@@ -35,6 +35,32 @@ export default function About() {
                         width={400}
                     />
                 </div>
+            </div>
+
+            <div className="mb-10">
+                <h1 className="text-5xl mt-4 mb-8 font-bold flex justify-center">
+                    DEI Commitment
+                </h1>
+                <hr className="bg-black-500 h-px my-6" />
+                <p className="flex justify-center text-lg mt-8">
+                    The world of technology is unique, diverse, and
+                    multi-faceted. We believe that our brothers should be too.
+                    In Kappa Theta Pi, we’re passionate about cultivating an
+                    inclusive community that promotes and values diversity. Our
+                    dedication to diversity, equity, and inclusion is
+                    unwavering; these values are central to our mission and to
+                    our impact. We know that having heterogeneous perspectives
+                    helps generate better ideas to solve the nuanced problems of
+                    a changing — and increasingly diverse — world.
+                </p>
+                <p className="flex justify-center text-lg mt-4">
+                    In KTP, we have a responsibility to address structural
+                    inequality in our communities as well as the social and
+                    cultural dimensions of technology. We are committed to
+                    harnessing the best of KTP — our people, platform, and
+                    technical innovation — to make lasting change inside and
+                    outside of our organization.
+                </p>
             </div>
 
             <div className="relative bg-gray-50 py-8 sm:py-16">
