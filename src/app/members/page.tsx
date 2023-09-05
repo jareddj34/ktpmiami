@@ -7,7 +7,6 @@ export default function Members() {
             <h1 className="flex justify-center text-5xl mt-4 font-bold">
                 Executive Board
             </h1>
-
             <div className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10">
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-5 xl:gap-x-8">
                     <a
@@ -24,7 +23,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/JaredPic.JPG"
+                                src="/images/headshots/MiaPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -51,7 +50,7 @@ export default function Members() {
                         </p>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                        href="https://www.linkedin.com/in/zoey-lee-876827279/"
                         className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         style={{
                             display: "flex",
@@ -147,7 +146,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/FacePic.png"
+                                src="/images/headshots/ChrisPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -176,7 +175,7 @@ export default function Members() {
                         </div>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                        href="https://www.linkedin.com/in/laura-amore-a937bb1bb/"
                         className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         style={{
                             display: "flex",
@@ -189,7 +188,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/FacePic.png"
+                                src="/images/headshots/LauraPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -215,8 +214,9 @@ export default function Members() {
                             VP of Finance
                         </p>
                     </a>
+
                     <a
-                        href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                        href="https://www.linkedin.com/in/yassid/"
                         className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         style={{
                             display: "flex",
@@ -229,7 +229,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/FacePic.png"
+                                src="/images/headshots/SidPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -259,7 +259,7 @@ export default function Members() {
                     </a>
 
                     <a
-                        href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                        href="https://www.linkedin.com/in/sophia-knutson/"
                         className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         style={{
                             display: "flex",
@@ -299,7 +299,7 @@ export default function Members() {
                         </p>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                        href="https://www.linkedin.com/in/ellakhrapko/"
                         className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         style={{
                             display: "flex",
@@ -312,7 +312,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/FacePic.png"
+                                src="/images/headshots/EllaPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -352,7 +352,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/FacePic.png"
+                                src="/images/headshots/PapaPic.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"

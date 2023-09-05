@@ -30,7 +30,10 @@ export default function Footer() {
                     </div>
                     <p>
                         Website created by{" "}
-                        <a href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/">
+                        <a
+                            href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
+                            target="_blank"
+                        >
                             <u>Jared de Monteiro</u>
                         </a>
                     </p>

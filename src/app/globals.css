@@ -85,6 +85,45 @@
     .grid-cols-centered > :nth-child(n + 6) {
         grid-row-start: 1; /* Place items in the first row */
     }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .box {
+        padding: 30px;
+        position: relative;
+        border-radius: 10px;
+        margin: 0 10px 40px 10px;
+        background: white;
+        box-shadow: 0 10px 30px 0 rgba(68, 88, 144, 0.1);
+        transition: 0.3s;
+        text-align: center;
+    }
+    .icon {
+        margin: 0 auto 15px auto;
+        padding-top: 15px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    /* .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    } */
 }
 
 @layer base {

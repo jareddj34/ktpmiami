@@ -30,9 +30,6 @@ const Navbar = async () => {
                     <Link href="/rush" style={{ fontSize: "22px" }}>
                         Rush
                     </Link>
-                    <Link href="/contactus" style={{ fontSize: "22px" }}>
-                        Contact Us
-                    </Link>
                 </div>
             </div>
         </div>
