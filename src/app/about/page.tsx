@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -19,7 +20,7 @@ export default function About() {
                         our recruitment for our first ever class, laying the
                         foundation for a lasting KTP legacy at the University of
                         Miami. Explore our website to learn about our founders,
-                        the upcoming recruitment process, and our fraternity's
+                        the upcoming recruitment process, and our fraternitys
                         vision.
                     </p>
                 </div>
@@ -27,7 +28,12 @@ export default function About() {
                     className="lg:ml-auto col-lg-7"
                     style={{ marginTop: "90px" }}
                 >
-                    <img src="/images/ULogo.png" height={400} width={400} />
+                    <Image
+                        src="/images/ULogo.png"
+                        alt=""
+                        height={400}
+                        width={400}
+                    />
                 </div>
             </div>
 
