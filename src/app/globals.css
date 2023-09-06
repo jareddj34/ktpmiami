@@ -120,6 +120,22 @@
         flex: 0 0 auto;
         width: 50%;
     }
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    @media (max-width: 767px) {
+        /* Change the width to 100% for screens narrower than 768px (typical mobile devices) */
+        .col-lg-4 {
+            width: 100%;
+            margin-bottom: 20px; /* Optional: Add some margin between stacked boxes */
+        }
+        .col-lg-6 {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
     /* .col-md-6 {
         flex: 0 0 auto;
         width: 50%;

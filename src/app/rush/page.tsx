@@ -11,7 +11,28 @@ export default function Rush() {
                 Start your journey of becoming part of a brotherhood with like
                 minded individuals, with a passion for tech
             </p>
-            <p className="flex justify-center text-lg mt-5">
+            <p className="text-lg text-center mt-4">
+                Click{" "}
+                <a
+                    className="text-blue-500"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdBkvQV9alZAldJ9_VJdrMwmpF5q3mZjgY92Oohoio62DW30A/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    here
+                </a>{" "}
+                to apply for rush this Spring. Make sure to follow us on{" "}
+                <a
+                    className="text-blue-500"
+                    href="https://www.instagram.com/ktp.umiami/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>{" "}
+                for updates.
+            </p>
+            {/* <p className="flex justify-center text-lg mt-5">
                 Click
                 <a
                     className="text-blue-500 ml-1 mr-1"
@@ -29,7 +50,7 @@ export default function Rush() {
                     Instagram
                 </a>
                 for more updates
-            </p>
+            </p> */}
         </>
     );
 }
