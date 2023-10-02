@@ -5,12 +5,12 @@ export default function Rush() {
     return (
         <>
             <h1 className="flex justify-center text-5xl mt-4 font-bold">
-                Rush Spring 2023!
+                Rush Fall 2023!
             </h1>
 
             <p className="flex justify-center text-lg mt-8">
-                Start your journey of becoming part of a brotherhood with like
-                minded individuals, with a passion for tech
+                Start your journey of becoming part of a brotherhood with people
+                who have a passion for tech.
             </p>
             <p className="text-lg text-center mt-4">
                 Click{" "}
@@ -22,7 +22,7 @@ export default function Rush() {
                 >
                     here
                 </a>{" "}
-                to apply for rush this Spring. Make sure to follow us on{" "}
+                to apply for rush this Fall. Make sure to follow us on{" "}
                 <a
                     className="text-blue-500"
                     href="https://www.instagram.com/ktp.umiami/"

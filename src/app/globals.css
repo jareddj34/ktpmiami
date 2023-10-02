@@ -136,6 +136,10 @@
         }
     }
 
+    .hover-path:hover path {
+        fill: #319ad4; /* Change this to your desired hover color */
+    }
+
     /* .col-md-6 {
         flex: 0 0 auto;
         width: 50%;
