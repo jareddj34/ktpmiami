@@ -29,7 +29,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/ktpumiami/"
+                            href="https://www.linkedin.com/company/kappa-theta-pi-sigma-chapter/"
                             target="_blank"
                             className="ml-1 hover-path"
                         >
