@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import "animate.css";
 
 export default function Home() {
     return (
@@ -27,35 +28,35 @@ export default function Home() {
                             alt=""
                             height={800}
                             width={800}
-                            className="w-full rounded-xl shadow-lg"
+                            className="w-full rounded-xl shadow-lg animate__animated animate__fadeInDownBig"
                         />
                         <Image
-                            src="/images/GroupPicAtMias.jpeg"
+                            src="/images/BeachSelfie.JPG"
                             alt=""
                             height={200}
                             width={200}
-                            className="w-full rounded-xl object-cover shadow-lg mt-10"
+                            className="w-full rounded-xl object-cover shadow-lg mt-10 animate__animated animate__fadeInDownBig"
                         />
                         <Image
                             src="/images/whiteboard.jpg"
                             alt=""
                             height={800}
                             width={800}
-                            className="w-full rounded-xl shadow-lg"
+                            className="w-full rounded-xl shadow-lg animate__animated animate__fadeInDownBig"
                         />
                         <Image
-                            src="/images/JaredPlayingVR.jpeg"
+                            src="/images/Dinner.jpg"
                             alt=""
                             height={200}
                             width={200}
-                            className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                            className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
                         />
                         <Image
                             src="/images/bed.jpg"
                             alt=""
                             height={200}
                             width={200}
-                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
                         />
                     </div>
                 </div>

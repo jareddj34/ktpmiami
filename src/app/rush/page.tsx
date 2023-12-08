@@ -5,7 +5,7 @@ export default function Rush() {
     return (
         <>
             <h1 className="flex justify-center text-5xl mt-4 font-bold">
-                Rush Fall 2023!
+                Rush Spring 2024!
             </h1>
 
             <p className="flex justify-center text-lg mt-8">
@@ -16,13 +16,13 @@ export default function Rush() {
                 Click{" "}
                 <a
                     className="text-blue-500"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdBkvQV9alZAldJ9_VJdrMwmpF5q3mZjgY92Oohoio62DW30A/viewform"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdjFiEFYKaeUYHp3izFcsBbtgdBAMJxqIdcH-M5ZQzYbTv5eg/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     here
                 </a>{" "}
-                to apply for rush this Fall. Make sure to follow us on{" "}
+                to apply for rush this Spring. Make sure to follow us on{" "}
                 <a
                     className="text-blue-500"
                     href="https://www.instagram.com/ktp.umiami/"

@@ -29,10 +29,11 @@ export default function About() {
                     style={{ marginTop: "90px" }}
                 >
                     <Image
-                        src="/images/ULogo.png"
+                        src="/images/BidDayGroup.JPG"
                         alt=""
-                        height={400}
-                        width={400}
+                        height={550}
+                        width={550}
+                        className="rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                 </div>
             </div>
@@ -130,12 +131,13 @@ export default function About() {
                                     </h1>
                                     <p className="mt-5 text-base leading-7 text-gray-600">
                                         Our alumni are spread out across the
-                                        world and work on cutting-edge
-                                        technologies. They work at a plethora of
-                                        companies - from tech companies like
-                                        Microsoft, Amazon, Facebook, Apple, and
-                                        Google, to startups, consulting firms,
-                                        financial technology firms, and more!
+                                        world and many work on cutting-edge
+                                        technologies. Most of them work at a
+                                        plethora of companies - from tech
+                                        companies like Microsoft, Amazon,
+                                        Facebook, Apple, and Google, to
+                                        startups, consulting firms, financial
+                                        technology firms, and more!
                                     </p>
                                 </div>
                             </div>
