@@ -33,7 +33,7 @@ export default function About() {
                         alt=""
                         height={550}
                         width={550}
-                        className="rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                     />
                 </div>
             </div>

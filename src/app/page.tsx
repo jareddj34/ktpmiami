@@ -58,6 +58,13 @@ export default function Home() {
                             width={200}
                             className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
                         />
+                        <Image
+                            src="/images/SoccerGame.jpg"
+                            alt=""
+                            height={200}
+                            width={200}
+                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
+                        />
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import MembersGrid from "./membersgrid";
 
 export default function Members() {
     return (
@@ -7,6 +8,7 @@ export default function Members() {
             <h1 className="flex justify-center text-5xl mt-4 font-bold">
                 Executive Board
             </h1>
+            <hr className="bg-black-500 h-px my-6" />
             <div className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10">
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
                     <a
@@ -382,6 +384,8 @@ export default function Members() {
                     </a>
                 </div>
             </div>
+            <hr className="bg-black-500 h-px my-6" />
+            <MembersGrid />
             <Footer />
         </>
     );
