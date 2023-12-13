@@ -25,7 +25,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/MiaPic.JPG"
+                                src="/images/headshots/Mia.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -65,7 +65,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/ZoeyPic.JPEG"
+                                src="/images/headshots/Zoey.jpg"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -106,7 +106,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/JaredPic.JPG"
+                                src="/images/headshots/Jared.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -148,7 +148,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/ChrisPic.JPG"
+                                src="/images/headshots/Chris.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -190,7 +190,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/LauraPic.JPG"
+                                src="/images/headshots/Laura.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -231,7 +231,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/SidPic.JPG"
+                                src="/images/headshots/Sid.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -274,7 +274,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/SophiePic.JPG"
+                                src="/images/headshots/Sophia.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -314,7 +314,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/EllaPic.JPG"
+                                src="/images/headshots/Ella.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
@@ -354,7 +354,7 @@ export default function Members() {
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt=""
-                                src="/images/headshots/PapaPic.JPG"
+                                src="/images/headshots/Papa.JPG"
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"

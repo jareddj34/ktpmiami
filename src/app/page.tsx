@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import "animate.css";
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Home() {
     return (
@@ -59,7 +67,7 @@ export default function Home() {
                             className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
                         />
                         <Image
-                            src="/images/SoccerGame.jpg"
+                            src="/images/SoccerGame.JPG"
                             alt=""
                             height={200}
                             width={200}
