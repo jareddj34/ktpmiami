@@ -99,7 +99,7 @@ const members = [
     },
     {
         name: "Zoey Lee",
-        image: "/images/headshots/Zoey.JPG",
+        image: "/images/headshots/Zoey.jpg",
         linkedin: "https://www.linkedin.com/in/zoeylee123/",
     },
     {
