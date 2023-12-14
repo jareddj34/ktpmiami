@@ -60,7 +60,7 @@ const members = [
     {
         name: "Rick Howell",
         image: "/images/headshots/Rick.JPG",
-        linkedin: "https://www.linkedin.com/in//",
+        linkedin: "https://www.linkedin.com/in/kappa-theta-pi-sigma-chapter/",
     },
     {
         name: "Nate Joseph",

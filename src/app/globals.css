@@ -140,10 +140,48 @@
         fill: #319ad4; /* Change this to your desired hover color */
     }
 
-    /* .col-md-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    } */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    /* Links in the dropdown */
+    .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .block:hover {
+        color: grey;
+    }
+    .anchor:before {
+        content: "";
+        display: block;
+        height: 60px; /* or whatever height you want */
+        margin-top: -60px; /* this should be the negative value of height */
+        visibility: hidden;
+    }
 }
 
 @layer base {

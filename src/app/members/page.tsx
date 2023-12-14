@@ -9,7 +9,10 @@ export default function Members() {
                 Executive Board
             </h1>
             <hr className="bg-black-500 h-px my-6" />
-            <div className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10">
+            <div
+                className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
+                id="e-board"
+            >
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
                     <a
                         href="https://www.linkedin.com/in/mia-uy-817a5827a/"
@@ -385,7 +388,9 @@ export default function Members() {
                 </div>
             </div>
             <hr className="bg-black-500 h-px my-6" />
-            <MembersGrid />
+            <div className="anchor" id="actives">
+                <MembersGrid />
+            </div>
             <Footer />
         </>
     );

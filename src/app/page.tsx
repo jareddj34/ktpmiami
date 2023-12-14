@@ -36,42 +36,42 @@ export default function Home() {
                             alt=""
                             height={800}
                             width={800}
-                            className="w-full rounded-xl shadow-lg animate__animated animate__fadeInDownBig"
+                            className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                         <Image
                             src="/images/BeachSelfie.JPG"
                             alt=""
                             height={200}
                             width={200}
-                            className="w-full rounded-xl object-cover shadow-lg mt-10 animate__animated animate__fadeInDownBig"
+                            className="w-full rounded-xl object-cover shadow-lg mt-10 transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                         <Image
                             src="/images/whiteboard.jpg"
                             alt=""
                             height={800}
                             width={800}
-                            className="w-full rounded-xl shadow-lg animate__animated animate__fadeInDownBig"
+                            className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                         <Image
                             src="/images/Dinner.jpg"
                             alt=""
                             height={200}
                             width={200}
-                            className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
+                            className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                         <Image
                             src="/images/bed.jpg"
                             alt=""
                             height={200}
                             width={200}
-                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
+                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                         <Image
                             src="/images/SoccerGame.JPG"
                             alt=""
                             height={200}
                             width={200}
-                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg animate__animated animate__fadeInUpBig"
+                            className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                         />
                     </div>
                 </div>
