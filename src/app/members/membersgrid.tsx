@@ -175,7 +175,10 @@ export default function MembersGrid() {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-7">
                 {members.map((member) => (
-                    <div className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform">
+                    <div
+                        key={member.name}
+                        className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
+                    >
                         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                             <Image
                                 alt={member.name}
@@ -186,7 +189,6 @@ export default function MembersGrid() {
                             />
                             <div className="overlay flex items-center justify-center absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity">
                                 <a
-                                    key={member.name}
                                     href={member.linkedin}
                                     style={{
                                         display: "flex",
@@ -209,7 +211,6 @@ export default function MembersGrid() {
                                 </a>
                                 {member.web && (
                                     <a
-                                        key={member.name}
                                         href={member.web}
                                         style={{
                                             display: "flex",
