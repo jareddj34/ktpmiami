@@ -3,6 +3,7 @@ import Image from "next/image";
 import MembersGrid from "./membersgrid";
 import Eboard from "./eboard";
 import Gboard from "./gboard";
+import List from "./list";
 
 export default function Members() {
     return (
@@ -17,6 +18,10 @@ export default function Members() {
 
             <div className="anchor" id="actives">
                 <MembersGrid />
+            </div>
+
+            <div className="anchor" id="list">
+                <List />
             </div>
 
             <Footer />

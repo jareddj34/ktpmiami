@@ -240,6 +240,7 @@ export default function MembersGrid() {
                                 overflow: "hidden",
                                 textOverflow: "ellipsis",
                                 whiteSpace: "nowrap",
+                                textAlign: "center",
                             }}
                         >
                             <h1 className="mt-2 text-md font-medium text-gray-700">
