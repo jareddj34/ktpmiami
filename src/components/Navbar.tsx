@@ -16,14 +16,14 @@ const Navbar: React.FC = () => {
         function handleClickOutside(event: any) {
             if (
                 toggleButtonRef.current &&
-                toggleButtonRef.current.contains(event.target)
+                (toggleButtonRef.current as HTMLElement).contains(event.target)
             ) {
                 // Ignore clicks on the toggle button
                 return;
             }
             if (
                 mobileMenuRef.current &&
-                !mobileMenuRef.current.contains(event.target)
+                !(mobileMenuRef.current as HTMLElement)?.contains(event.target)
             ) {
                 setIsMobileMenuOpen(false); // Close the mobile menu
             }
