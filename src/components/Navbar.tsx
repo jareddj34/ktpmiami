@@ -1,14 +1,41 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 const Navbar: React.FC = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const mobileMenuRef = useRef(null);
+    const toggleButtonRef = useRef(null);
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
+
+    useEffect(() => {
+        function handleClickOutside(event: any) {
+            if (
+                toggleButtonRef.current &&
+                toggleButtonRef.current.contains(event.target)
+            ) {
+                // Ignore clicks on the toggle button
+                return;
+            }
+            if (
+                mobileMenuRef.current &&
+                !mobileMenuRef.current.contains(event.target)
+            ) {
+                setIsMobileMenuOpen(false); // Close the mobile menu
+            }
+        }
+
+        // Attach the listeners on component mount.
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            // Detach the listeners on component unmount.
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
 
     return (
         <div
@@ -31,6 +58,7 @@ const Navbar: React.FC = () => {
                 {/* Mobile Menu Button (Hamburger or X) */}
                 <div className="flex items-center">
                     <button
+                        ref={toggleButtonRef}
                         onClick={toggleMobileMenu}
                         className="md:hidden text-white text-xl focus:outline-none"
                     >
@@ -41,6 +69,7 @@ const Navbar: React.FC = () => {
                 {/* Mobile Menu */}
                 {isMobileMenuOpen && (
                     <div
+                        ref={mobileMenuRef}
                         className="md:hidden absolute top-14 inset-x-0"
                         style={{ backgroundColor: "#234c8b" }}
                     >
