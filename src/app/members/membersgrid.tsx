@@ -132,11 +132,13 @@ const members = [
         name: "Kayleen Ramirez",
         image: "/images/headshots/Kayleen.JPG",
         linkedin: "https://www.linkedin.com/in/pkramirez/",
+        web: "https://pkramirez.me/",
     },
     {
         name: "Carlos Rodriguez",
         image: "/images/headshots/Carlos.JPG",
         linkedin: "https://www.linkedin.com/in/carlos-rodriguez-b23b58299/",
+        web: "https://carlosrod.me",
     },
     {
         name: "Kali Rhyder",

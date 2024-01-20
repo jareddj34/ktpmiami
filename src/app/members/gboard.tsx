@@ -6,13 +6,13 @@ const members = [
         image: "/images/headshots/Sean.JPG",
         linkedin: "https://www.linkedin.com/in/sean-sweeney-1b8b9a1b6/",
         title: "Director of Philanthropy",
-        web: "",
     },
     {
         name: "Kayleen Ramirez",
         image: "/images/headshots/Kayleen.JPG",
         linkedin: "https://www.linkedin.com/in/pkramirez/",
         title: "Director of Women's Empowerment",
+        web: "https://pkramirez.me/",
     },
     {
         name: "Kaitlyn Landrove",
