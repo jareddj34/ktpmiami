@@ -113,7 +113,7 @@ export default function Gboard() {
                                     textOverflow: "ellipsis",
                                     whiteSpace: "normal",
                                     textAlign: "center",
-                                    height: "6rem",
+                                    height: "8rem",
                                 }}
                             >
                                 <h1 className="mt-2 text-md font-medium text-gray-700">
