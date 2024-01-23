@@ -9,6 +9,7 @@ export default function List() {
         { name: "Sophia Knutson", class: "Founders" },
         { name: "Ella Khrapko", class: "Founders" },
         { name: "Sofia Papa", class: "Founders" },
+        { name: "Kavya Jain", class: "Founders" },
         { name: "Youssof Alwardany", class: "Alpha" },
         { name: "Miranda Bialek", class: "Alpha" },
         { name: "Javier Carrillo", class: "Alpha" },

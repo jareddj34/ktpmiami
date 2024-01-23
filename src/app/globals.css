@@ -182,6 +182,13 @@
         margin-top: -60px; /* this should be the negative value of height */
         visibility: hidden;
     }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 75vh;
+        position: relative;
+    }
 }
 
 @layer base {

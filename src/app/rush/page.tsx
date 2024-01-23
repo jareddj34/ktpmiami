@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import Timeline from "@/components/Timeline";
 
 export default function Rush() {
     return (
@@ -33,6 +34,12 @@ export default function Rush() {
                 </a>{" "}
                 for updates.
             </p>
+
+            <h1 className="flex justify-center text-4xl mt-20 mb-10 font-bold">
+                Events
+            </h1>
+
+            <Timeline />
 
             <div style={{ marginTop: "500px" }}>
                 <Footer />
