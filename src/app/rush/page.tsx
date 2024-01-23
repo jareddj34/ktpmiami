@@ -41,9 +41,7 @@ export default function Rush() {
 
             <Timeline />
 
-            <div style={{ marginTop: "500px" }}>
-                <Footer />
-            </div>
+            <Footer />
         </>
     );
 }
