@@ -170,12 +170,12 @@ const members = [
 export default function MembersGrid() {
     return (
         <>
-            <h1 className="flex justify-center text-5xl mt-4 font-bold">
+            <h1 className="flex justify-center text-5xl mt-4 font-bold text-center">
                 Active Members
             </h1>
             <hr className="bg-black-500 h-px my-6" />
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-7">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-7">
                 {members.map((member) => (
                     <div
                         key={member.name}
@@ -188,6 +188,7 @@ export default function MembersGrid() {
                                 layout="fill"
                                 objectFit="cover"
                                 className="group-hover:overlay-blue"
+                                priority={true}
                             />
                             <div className="overlay flex items-center justify-center absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity">
                                 <a

@@ -67,7 +67,7 @@ const members = [
 export default function Eboard() {
     return (
         <>
-            <h1 className="flex justify-center text-5xl mt-4 font-bold">
+            <h1 className="flex justify-center text-5xl mt-4 font-bold text-center">
                 Executive Board
             </h1>
             <hr className="bg-black-500 h-px my-6" />
@@ -75,7 +75,7 @@ export default function Eboard() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"
             >
-                <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-5 xl:grid-cols-5 xl:gap-x-8">
+                <div className="grid grid-cols-2 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-5 xl:grid-cols-5 xl:gap-x-8">
                     {members.map((member) => (
                         <div
                             key={member.name}
@@ -88,6 +88,7 @@ export default function Eboard() {
                                     layout="fill"
                                     objectFit="cover"
                                     className="group-hover:overlay-blue"
+                                    priority={true}
                                 />
                                 <div className="overlay flex items-center justify-center absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity">
                                     <a

@@ -5,7 +5,7 @@ export default function Footer() {
                 className="text-black py-4 text-center mt-10"
                 style={{ color: "#234c8b" }}
             >
-                <div className="container max-w-7xl h-full mx-auto flex items-center justify-between gap-2">
+                <div className="container max-w-7xl h-full mx-auto flex items-center justify-between gap-3 grid grid-cols-1 sm:grid-cols-3">
                     <p>
                         &copy; {new Date().getFullYear()} Kappa Theta Pi. All
                         rights reserved.
