@@ -242,11 +242,11 @@ export default function MembersGrid() {
                             style={{
                                 overflow: "hidden",
                                 textOverflow: "ellipsis",
-                                whiteSpace: "nowrap",
+                                whiteSpace: "normal",
                                 textAlign: "center",
                             }}
                         >
-                            <h1 className="mt-2 text-md font-medium text-gray-700">
+                            <h1 className="mt-2 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-md font-medium text-gray-700">
                                 {member.name}
                             </h1>
                         </div>

@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
 
     return (
         <div
-            className="fixed top-0 inset-x-0 h-15 border-b border-zinc-300 z-[10] py-3 bg-gray-900/5 object-cover shadow-lg"
+            className="fixed top-0 inset-x-0 h-15 border-b border-zinc-300 z-[10] py-2 bg-gray-900/5 object-cover shadow-lg"
             style={{ backgroundColor: "#234c8b" }}
         >
             <div className="container max-w-7xl h-full mx-auto flex items-center justify-between gap-2">
@@ -47,10 +47,10 @@ const Navbar: React.FC = () => {
                 <div className="flex items-center">
                     <Link href="/">
                         <h1
-                            className="text-white font-medium md:block"
-                            style={{ fontSize: "25px" }}
+                            className="text-white font-medium"
+                            style={{ fontSize: "30px" }}
                         >
-                            Kappa Theta Pi
+                            ΚΘΠ
                         </h1>
                     </Link>
                 </div>
@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
                 )}
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-right justify-between gap-8 text-white">
+                <div className="hidden md:flex items-center justify-between gap-8 text-white">
                     <Link
                         href="/"
                         style={{ fontSize: "22px" }}
