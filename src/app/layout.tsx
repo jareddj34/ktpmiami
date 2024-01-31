@@ -10,6 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "KTPMiami",
     description: "KTP website for UMiami",
+    keywords:
+        "KTP, UMiami, Miami, Kappa Theta Pi, Technology, Fraternity, University of Miami",
 };
 
 export default function RootLayout({
