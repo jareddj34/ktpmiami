@@ -33,15 +33,7 @@ const events = [
         description:
             "Make sure you get your applications submitted! No late applications will be accepted.",
         date: "January 31 - February 5, 11:59pm",
-        location: (
-            <a
-                href="https://docs.google.com/forms/d/10zoLG4oo57qWvb4zAphL-J9lyRhr2zC_Sp4HhKz-TiE/edit"
-                target="_blank"
-                className="text-blue-500"
-            >
-                Click here for the application!
-            </a>
-        ),
+        location: "",
     },
     {
         imageSrc: "/images/lock.png",

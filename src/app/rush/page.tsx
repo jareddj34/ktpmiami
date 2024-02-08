@@ -14,16 +14,7 @@ export default function Rush() {
                 who have a passion for tech.
             </p>
             <p className="text-lg text-center mt-4">
-                Click{" "}
-                <a
-                    className="text-blue-500"
-                    href="https://docs.google.com/forms/d/10zoLG4oo57qWvb4zAphL-J9lyRhr2zC_Sp4HhKz-TiE/edit"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    here
-                </a>{" "}
-                to apply for rush this Spring. Make sure to follow us on{" "}
+                Rush has been closed for the Spring. Make sure to follow us on{" "}
                 <a
                     className="text-blue-500"
                     href="https://www.instagram.com/ktp.umiami/"
