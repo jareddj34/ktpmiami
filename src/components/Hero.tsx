@@ -30,28 +30,28 @@ export default function Hero() {
                                 className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
-                                src="/images/BeachSelfie.JPG"
+                                src="/images/sidsofandkay.jpeg"
                                 alt=""
                                 height={200}
                                 width={200}
                                 className="w-full rounded-xl object-cover shadow-lg mt-10 transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
-                                src="/images/volleyball.jpg"
+                                src="/images/ahot.jpeg"
                                 alt=""
                                 height={750}
                                 width={800}
                                 className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
-                                src="/images/Dinner.jpg"
+                                src="/images/katanpic.jpeg"
                                 alt=""
                                 height={200}
                                 width={200}
                                 className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
-                                src="/images/bed.jpg"
+                                src="/images/eboardpic.jpeg"
                                 alt=""
                                 height={200}
                                 width={200}
