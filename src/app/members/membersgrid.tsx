@@ -8,7 +8,7 @@ const members = [
     },
     {
         name: "Laura Amore",
-        image: "/images/headshots/Laura.JPG",
+        image: "/images/headshots/Laura.png",
         linkedin: "https://www.linkedin.com/in/laura-amore/",
     },
     {
