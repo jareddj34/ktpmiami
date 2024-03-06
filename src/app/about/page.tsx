@@ -29,7 +29,7 @@ export default function About() {
                     style={{ marginTop: "90px" }}
                 >
                     <Image
-                        src="/images/BidDayGroup.JPG"
+                        src="/images/AlphaBeta.jpeg"
                         alt=""
                         height={550}
                         width={550}
