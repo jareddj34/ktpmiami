@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
 
     return (
         <div
-            className="fixed top-0 inset-x-0 h-15 border-b border-zinc-300 z-[10] py-2 bg-gray-900/5 object-cover shadow-lg"
+            className="fixed top-0 inset-x-0 h-15 z-[10] py-2 object-cover shadow-2xl"
             style={{ backgroundColor: "#234c8b" }}
         >
             <div className="container max-w-7xl h-full mx-auto flex items-center justify-between gap-2">
@@ -74,12 +74,53 @@ const Navbar: React.FC = () => {
                         style={{ backgroundColor: "#234c8b" }}
                     >
                         <div className="container mx-auto py-4">
-                            <Link href="/" className="block text-white py-2">
+                            <Link
+                                href="/"
+                                className="block text-white py-2"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    const sectionId = "#hero"; // Replace "hero" with the ID of your target section
+                                    const targetSection =
+                                        document.querySelector(sectionId);
+
+                                    if (targetSection) {
+                                        const offset = 100; // Adjust the offset value
+                                        const targetPosition =
+                                            targetSection.getBoundingClientRect()
+                                                .top +
+                                            window.scrollY -
+                                            offset;
+                                        window.scrollTo({
+                                            top: targetPosition,
+                                            behavior: "smooth",
+                                        });
+                                    }
+                                }}
+                            >
                                 Home
                             </Link>
                             <Link
                                 href="/about"
                                 className="block text-white py-2"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    const sectionId = "#about"; // Replace "hero" with the ID of your target section
+                                    const targetSection =
+                                        document.querySelector(sectionId);
+
+                                    if (targetSection) {
+                                        const offset = 100; // Adjust the offset value
+                                        const targetPosition =
+                                            targetSection.getBoundingClientRect()
+                                                .top +
+                                            window.scrollY -
+                                            offset;
+                                        window.scrollTo({
+                                            top: targetPosition,
+                                            behavior: "smooth",
+                                        });
+                                    }
+                                }}
                             >
                                 About Us
                             </Link>
@@ -87,6 +128,25 @@ const Navbar: React.FC = () => {
                             <Link
                                 href="/members"
                                 className="block text-white py-2"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    const sectionId = "#members"; // Replace "hero" with the ID of your target section
+                                    const targetSection =
+                                        document.querySelector(sectionId);
+
+                                    if (targetSection) {
+                                        const offset = 100; // Adjust the offset value
+                                        const targetPosition =
+                                            targetSection.getBoundingClientRect()
+                                                .top +
+                                            window.scrollY -
+                                            offset;
+                                        window.scrollTo({
+                                            top: targetPosition,
+                                            behavior: "smooth",
+                                        });
+                                    }
+                                }}
                             >
                                 Members
                             </Link>
@@ -94,6 +154,25 @@ const Navbar: React.FC = () => {
                             <Link
                                 href="/rush"
                                 className="block text-white py-2"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    const sectionId = "#rush"; // Replace "hero" with the ID of your target section
+                                    const targetSection =
+                                        document.querySelector(sectionId);
+
+                                    if (targetSection) {
+                                        const offset = 100; // Adjust the offset value
+                                        const targetPosition =
+                                            targetSection.getBoundingClientRect()
+                                                .top +
+                                            window.scrollY -
+                                            offset;
+                                        window.scrollTo({
+                                            top: targetPosition,
+                                            behavior: "smooth",
+                                        });
+                                    }
+                                }}
                             >
                                 Rush
                             </Link>
@@ -107,47 +186,101 @@ const Navbar: React.FC = () => {
                         href="/"
                         style={{ fontSize: "22px" }}
                         className="hover:text-gray-300"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const sectionId = "#hero"; // Replace "hero" with the ID of your target section
+                            const targetSection =
+                                document.querySelector(sectionId);
+
+                            if (targetSection) {
+                                const offset = 150; // Adjust the offset value
+                                const targetPosition =
+                                    targetSection.getBoundingClientRect().top +
+                                    window.scrollY -
+                                    offset;
+                                window.scrollTo({
+                                    top: targetPosition,
+                                    behavior: "smooth",
+                                });
+                            }
+                        }}
                     >
                         Home
                     </Link>
                     <Link
-                        href="/about"
+                        href="/#about"
                         style={{ fontSize: "22px" }}
                         className="hover:text-gray-300"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const sectionId = "#about"; // Replace "hero" with the ID of your target section
+                            const targetSection =
+                                document.querySelector(sectionId);
+
+                            if (targetSection) {
+                                const offset = 125; // Adjust the offset value
+                                const targetPosition =
+                                    targetSection.getBoundingClientRect().top +
+                                    window.scrollY -
+                                    offset;
+                                window.scrollTo({
+                                    top: targetPosition,
+                                    behavior: "smooth",
+                                });
+                            }
+                        }}
                     >
                         About Us
                     </Link>
-                    <div className="dropdown">
-                        <Link
-                            href="/members"
-                            style={{ fontSize: "22px" }}
-                            className="hover:text-gray-300"
-                        >
-                            <div className="flex">
-                                Members{" "}
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="30px"
-                                    height="30px"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    className="fill-current mt-1 "
-                                >
-                                    <path d="M12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L6.29289 9.70711C5.90237 9.31658 5.90237 8.68342 6.29289 8.29289C6.68342 7.90237 7.31658 7.90237 7.70711 8.29289L12 12.5858L16.2929 8.29289C16.6834 7.90237 17.3166 7.90237 17.7071 8.29289C18.0976 8.68342 18.0976 9.31658 17.7071 9.70711L12.7071 14.7071Z" />
-                                </svg>
-                            </div>
-                        </Link>
-                        <div className="dropdown-content">
-                            <Link href="/members">E-Board</Link>
-                            <Link href="/members#directors">Directors</Link>
-                            <Link href="/members#actives">Actives</Link>
-                        </div>
-                    </div>
+
+                    <Link
+                        href="/members"
+                        style={{ fontSize: "22px" }}
+                        className="hover:text-gray-300"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const sectionId = "#members"; // Replace "hero" with the ID of your target section
+                            const targetSection =
+                                document.querySelector(sectionId);
+
+                            if (targetSection) {
+                                const offset = 100; // Adjust the offset value
+                                const targetPosition =
+                                    targetSection.getBoundingClientRect().top +
+                                    window.scrollY -
+                                    offset;
+                                window.scrollTo({
+                                    top: targetPosition,
+                                    behavior: "smooth",
+                                });
+                            }
+                        }}
+                    >
+                        Members{" "}
+                    </Link>
 
                     <Link
                         href="/rush"
                         style={{ fontSize: "22px" }}
                         className="hover:text-gray-300"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const sectionId = "#rush"; // Replace "hero" with the ID of your target section
+                            const targetSection =
+                                document.querySelector(sectionId);
+
+                            if (targetSection) {
+                                const offset = 150; // Adjust the offset value
+                                const targetPosition =
+                                    targetSection.getBoundingClientRect().top +
+                                    window.scrollY -
+                                    offset;
+                                window.scrollTo({
+                                    top: targetPosition,
+                                    behavior: "smooth",
+                                });
+                            }
+                        }}
                     >
                         Rush
                     </Link>

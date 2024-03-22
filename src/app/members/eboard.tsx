@@ -18,13 +18,14 @@ const members = [
         image: "/images/headshots/Jared.JPG",
         linkedin: "https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/",
         title: "Co-VP of Technical Development",
-        web: "https://jareddemonteiro.vercel.app/",
+        web: "https://www.jareddemonteiro.me/",
     },
     {
         name: "Nate Joseph",
         image: "/images/headshots/Nate.JPG",
         linkedin: "https://www.linkedin.com/in/nathanieljoseph/",
         title: "Co-VP of Technical Development",
+        web: "https://natejoseph.me/",
     },
     {
         name: "Laura Amore",
@@ -67,10 +68,6 @@ const members = [
 export default function Eboard() {
     return (
         <>
-            <h1 className="flex justify-center text-5xl mt-4 font-bold text-center">
-                Executive Board
-            </h1>
-            <hr className="bg-black-500 h-px my-6" />
             <div
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"

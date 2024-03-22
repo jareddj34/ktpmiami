@@ -1,12 +1,16 @@
+"use client";
+
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import MemberCarousel from "@/components/MemberCarousel";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function About() {
     return (
         <>
             <div className="row flex flex-col lg:flex-row mt-10 mb-40">
                 <div className="space-y-4 col-lg-7 col-md-6">
-                    <h1 className="flex justify-left text-5xl mt-4 font-bold">
+                    <h1 className="flex justify-left text-5xl mt-8 font-bold">
                         About Us
                     </h1>
                     <hr className="bg-black-500 h-px my-6" />
@@ -30,7 +34,7 @@ export default function About() {
                 >
                     <Image
                         src="/images/AlphaBeta.jpeg"
-                        alt=""
+                        alt="Alpha and Beta Class picture"
                         height={550}
                         width={550}
                         className="rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
@@ -38,7 +42,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="mb-10">
+            <div className="mb-20">
                 <h1 className="text-5xl mt-4 mb-8 font-bold flex justify-center">
                     DEI Commitment
                 </h1>
@@ -64,9 +68,18 @@ export default function About() {
                 </p>
             </div>
 
+            <div
+                className="flex flex-col items-center justify-center"
+                id="carousel"
+            >
+                <h1 className="text-5xl mt-4 mb-10 font-bold">Testimonials</h1>
+
+                <MemberCarousel />
+            </div>
+
             <div className="relative bg-gray-50 py-8 sm:py-16">
-                <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-                    <h1 className="text-5xl mt-4 mb-8 font-bold">Pillars</h1>
+                <div className="mx-auto max-w-md px-2 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+                    <h1 className="text-5xl mt-10 mb-8 font-bold">Pillars</h1>
                     <hr className="bg-black-500 h-px my-6" />
                     <div className="container">
                         <div className="row">
@@ -172,7 +185,7 @@ export default function About() {
                                         events throughout the semester through
                                         which our members can bond, some of
                                         which include formal, tailgates,
-                                        retreat, and apple picking.
+                                        retreat, and parties.
                                     </p>
                                 </div>
                             </div>
@@ -250,7 +263,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

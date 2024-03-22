@@ -1,6 +1,13 @@
+"use client";
+
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import "animate.css";
+import { ParallaxScroll } from "./ui/parallax";
+import React, { useEffect, useState } from "react";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -17,6 +24,33 @@ export default function Hero() {
                         A community of like minded individuals with a passion
                         for tech and personal development.
                     </p>
+                    <Button style={{ backgroundColor: "#234c8b" }}>
+                        <Link
+                            href="/rush"
+                            className="text-lg"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                const sectionId = "#rush"; // Replace "hero" with the ID of your target section
+                                const targetSection =
+                                    document.querySelector(sectionId);
+
+                                if (targetSection) {
+                                    const offset = 150; // Adjust the offset value
+                                    const targetPosition =
+                                        targetSection.getBoundingClientRect()
+                                            .top +
+                                        window.scrollY -
+                                        offset;
+                                    window.scrollTo({
+                                        top: targetPosition,
+                                        behavior: "smooth",
+                                    });
+                                }
+                            }}
+                        >
+                            Rush
+                        </Link>
+                    </Button>
                 </div>
 
                 <div className="hidden sm:block">
@@ -24,42 +58,42 @@ export default function Hero() {
                         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 max-w-5xl mx-auto">
                             <Image
                                 src="/images/SophiaFlag.JPG"
-                                alt=""
+                                alt="Sophia holding the flag"
                                 height={800}
                                 width={800}
                                 className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/sidsofandkay.jpeg"
-                                alt=""
+                                alt="Kayleen Andaiye Sofia and Sid"
                                 height={200}
                                 width={200}
                                 className="w-full rounded-xl object-cover shadow-lg mt-10 transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/ahot.jpeg"
-                                alt=""
+                                alt="AHOT pic"
                                 height={750}
                                 width={800}
                                 className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/katanpic.jpeg"
-                                alt=""
+                                alt="Katan group"
                                 height={200}
                                 width={200}
                                 className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/eboardpic.jpeg"
-                                alt=""
+                                alt="Board Bid Day"
                                 height={200}
                                 width={200}
                                 className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/SoccerGame.JPG"
-                                alt=""
+                                alt="Soccer Game"
                                 height={200}
                                 width={200}
                                 className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"

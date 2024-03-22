@@ -35,8 +35,6 @@ export default function Rush() {
             </p>
 
             <Timeline />
-
-            <Footer />
         </>
     );
 }

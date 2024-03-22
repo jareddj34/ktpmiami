@@ -8,9 +8,14 @@ import List from "./list";
 export default function Members() {
     return (
         <>
-            <div className="anchor" id="eboard">
+            {/* <div className="anchor" id="eboard">
+                <h1 className="flex justify-center text-5xl mt-4 font-bold text-center">
+                    Executive Board
+                </h1>
+
+                <hr className="bg-black-500 h-px my-6" />
                 <Eboard />
-            </div>
+            </div> */}
 
             <div className="anchor" id="directors">
                 <Gboard />
@@ -23,8 +28,6 @@ export default function Members() {
             <div className="anchor" id="list">
                 <List />
             </div>
-
-            <Footer />
         </>
     );
 }

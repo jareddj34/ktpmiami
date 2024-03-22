@@ -45,7 +45,7 @@ export default function List() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="list"
             >
-                <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3 ml-10">
                     {["Founders", "Alpha"].map((memberClass) => (
                         <div key={memberClass}>
                             <h1 className="text-xl font-bold">{memberClass}</h1>
