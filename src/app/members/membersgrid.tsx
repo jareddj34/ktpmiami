@@ -166,7 +166,84 @@ const members = [
         image: "/images/headshots/Mia.JPG",
         linkedin: "https://www.linkedin.com/in/mia-uy-817a5827a/",
     },
-];
+    {
+        name: "Rand Luthringer",
+        image: "/images/headshots/beta/Rand_L.JPG",
+        linkedin: "https://www.linkedin.com/in/rand-luthringer/",
+    },
+    {
+        name: "Natalia Guardiola",
+        image: "/images/headshots/beta/Natalia_G.JPG",
+        linkedin: "https://www.linkedin.com/in/nataliaguardiola/",
+    },
+    {
+        name: "Rachel Tomasetti",
+        image: "/images/headshots/beta/Rachel_T.JPG",
+        linkedin: "https://www.linkedin.com/in/racheltomasetti44/",
+    },
+    {
+        name: "Emma Soupharath",
+        image: "/images/headshots/beta/Emma_S.JPG",
+        linkedin: "https://www.linkedin.com/in/emmalina-soupharath/",
+    },
+    {
+        name: "Sean Andrews",
+        image: "/images/headshots/beta/Sean_A.JPG",
+        linkedin: "https://www.linkedin.com/in/seanja",
+        web: "https://seanja.cargo.site/",
+    },
+    {
+        name: "Sabrina Perron-Vega",
+        image: "/images/headshots/beta/Sabrina_P.JPG",
+        linkedin:
+            "https://www.linkedin.com/in/sabrina-perron-vega-b05521289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    },
+    {
+        name: "Daniel Li",
+        image: "/images/headshots/beta/Daniel_L.JPG",
+        linkedin: "https://www.linkedin.com/in/daniel-li-6856822b7/",
+        web: "https://www.debugdaniel.com/",
+    },
+    {
+        name: "Caitlin Raymond",
+        image: "/images/headshots/beta/Caitlin_R.JPG",
+        linkedin: "www.linkedin.com/in/caitlinaraymond",
+    },
+    {
+        name: "Ivy Enyenihi",
+        image: "/images/headshots/beta/Ivy_E.JPG",
+        linkedin: "www.linkedin.com/in/ivy-enyenihi",
+    },
+    {
+        name: "Sidney Cocimano",
+        image: "/images/headshots/beta/Sidney_C.JPG",
+        linkedin: "www.linkedin.com/in/sidneycocimano",
+    },
+    {
+        name: "Rachel Farinas",
+        image: "/images/headshots/beta/Rachel_F.JPG",
+        linkedin: "https://www.linkedin.com/in/rachel-farinas/",
+    },
+    {
+        name: "Thomas Sydnor",
+        image: "/images/headshots/beta/Thomas_S.JPG",
+        linkedin: "https://www.linkedin.com/in/thomas-sydnor-2119622b3/",
+    },
+    {
+        name: "Anthony Santoro",
+        image: "/images/headshots/beta/Anthony_S.JPG",
+        linkedin: "https://www.linkedin.com/in/anthony-santoro-aa2914162/",
+    },
+    {
+        name: "Hannah Beatty",
+        image: "/images/headshots/beta/Hannah_B.JPG",
+        linkedin: "https://www.linkedin.com/in/hannah-beattyy/",
+    },
+].sort((a, b) => {
+    const lastNameA = a.name.split(" ")[1];
+    const lastNameB = b.name.split(" ")[1];
+    return lastNameA.localeCompare(lastNameB);
+});
 
 export default function MembersGrid() {
     return (

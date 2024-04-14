@@ -10,6 +10,7 @@ export default function List() {
         { name: "Ella Khrapko", class: "Founders" },
         { name: "Sofia Papa", class: "Founders" },
         { name: "Kavya Jain", class: "Founders" },
+        //Alpha
         { name: "Youssof Alwardany", class: "Alpha" },
         { name: "Miranda Bialek", class: "Alpha" },
         { name: "Javier Carrillo", class: "Alpha" },
@@ -33,6 +34,21 @@ export default function List() {
         { name: "Taylor Shirk", class: "Alpha" },
         { name: "Stone Sparkes", class: "Alpha" },
         { name: "Sean Sweeney", class: "Alpha" },
+        //Beta
+        { name: "Sean Andrews", class: "Beta" },
+        { name: "Hannah Beatty", class: "Beta" },
+        { name: "Sidney Cocimano", class: "Beta" },
+        { name: "Ivy Enyenihi", class: "Beta" },
+        { name: "Rachel Farinas", class: "Beta" },
+        { name: "Natalia Guardiola", class: "Beta" },
+        { name: "Rand Luthringer", class: "Beta" },
+        { name: "Daniel Li", class: "Beta" },
+        { name: "Sabrina Perron-Vega", class: "Beta" },
+        { name: "Caitlin Raymond", class: "Beta" },
+        { name: "Anthony Santoro", class: "Beta" },
+        { name: "Emma Soupharath", class: "Beta" },
+        { name: "Thomas Sydnor", class: "Beta" },
+        { name: "Rachel Tomasetti", class: "Beta" },
     ];
 
     return (
@@ -46,7 +62,7 @@ export default function List() {
                 id="list"
             >
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3 ml-10">
-                    {["Founders", "Alpha"].map((memberClass) => (
+                    {["Founders", "Alpha", "Beta"].map((memberClass) => (
                         <div key={memberClass}>
                             <h1 className="text-xl font-bold">{memberClass}</h1>
                             <ul>
