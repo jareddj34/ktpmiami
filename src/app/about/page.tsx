@@ -15,7 +15,7 @@ export default function About() {
                     </h1>
                     <hr className="bg-black-500 h-px my-6" />
                     <p className="text-2xl" style={{ maxWidth: "650px" }}>
-                        Kappa Theta Phi stands as the first-ever professional
+                        Kappa Theta Pi stands as the first-ever professional
                         technology fraternity at the University of Miami. Our
                         focus is on cultivating technological expertise and
                         professionalism among our members. Beyond skills, we
