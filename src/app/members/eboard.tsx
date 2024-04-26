@@ -59,11 +59,11 @@ export default function Eboard() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"
             >
-                <div className="flex flex-row flex-wrap felx-auto gap-y-10 gap-x-6 justify-center">
+                <div className="flex flex-row flex-wrap felx-auto gap-y-3 gap-x-6 justify-center">
                     {members.map((member) => (
                         <div
                             key={member.name}
-                            className=" sm:basis-1/3 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
+                            className="shrink basis-full sm:basis-1/4 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         >
                             <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                                 <Image
@@ -128,7 +128,7 @@ export default function Eboard() {
                                     textOverflow: "ellipsis",
                                     whiteSpace: "normal",
                                     textAlign: "center",
-                                    height: "6rem",
+                                    height: "7rem",
                                 }}
                             >
                                 <h1 className="mt-2 text-md font-medium text-gray-700">

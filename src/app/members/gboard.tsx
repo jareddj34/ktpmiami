@@ -8,16 +8,9 @@ const members = [
         title: "Director of Philanthropy",
     },
     {
-        name: "Kayleen Ramirez",
-        image: "/images/headshots/Kayleen.JPG",
-        linkedin: "https://www.linkedin.com/in/pkramirez/",
-        title: "Director of Women's Empowerment",
-        web: "https://pkramirez.me/",
-    },
-    {
-        name: "Kaitlyn Landrove",
-        image: "/images/headshots/Kaitlyn.JPG",
-        linkedin: "https://www.linkedin.com/in/kaitlyn-landrove-4b3bba1b6/",
+        name: "Emma Soupharath",
+        image: "/images/headshots/beta/Emma_S.JPG",
+        linkedin: "https://www.linkedin.com/in/emmalina-soupharath/",
         title: "Director of Merchandise and Strategy",
     },
     {
@@ -32,6 +25,25 @@ const members = [
         linkedin: "https://www.linkedin.com/in/julian-estrada-2b1b3a1b6/",
         title: "Co-Director of Member Education",
     },
+    {
+        name: "Kayleen Ramirez",
+        image: "/images/headshots/Kayleen.JPG",
+        linkedin: "https://www.linkedin.com/in/pkramirez/",
+        web: "https://pkramirez.me/",
+        title: "Co-Director of Techical Operations",
+    },
+    {
+        name: "Javier Carrillo",
+        image: "/images/headshots/Javier.JPG",
+        linkedin: "https://www.linkedin.com/in/jcarrilloz/",
+        title: "Co-Director of Techical Operations",
+    },
+    {
+        name: "Ivy Enyenihi",
+        image: "/images/headshots/beta/Ivy_E.JPG",
+        linkedin: "www.linkedin.com/in/ivy-enyenihi",
+        title: "Co-Director of Membership",
+    },
 ];
 
 export default function Gboard() {
@@ -45,11 +57,11 @@ export default function Gboard() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"
             >
-                <div className="grid grid-cols-2 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-5 xl:grid-cols-5 xl:gap-x-8">
+                <div className="flex flex-row flex-wrap felx-auto gap-y-3 gap-x-6 justify-center">
                     {members.map((member) => (
                         <div
                             key={member.name}
-                            className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
+                            className="shrink basis-full sm:basis-1/4 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         >
                             <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                                 <Image
