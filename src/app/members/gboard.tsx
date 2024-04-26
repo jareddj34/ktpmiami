@@ -42,7 +42,7 @@ const members = [
         name: "Ivy Enyenihi",
         image: "/images/headshots/beta/Ivy_E.JPG",
         linkedin: "www.linkedin.com/in/ivy-enyenihi",
-        title: "Co-Director of Membership",
+        title: "Director of Membership",
     },
 ];
 
