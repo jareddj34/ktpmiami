@@ -30,13 +30,13 @@ const members = [
         image: "/images/headshots/Kayleen.JPG",
         linkedin: "https://www.linkedin.com/in/pkramirez/",
         web: "https://pkramirez.me/",
-        title: "Co-Director of Techical Operations",
+        title: "Co-Director of Technical Operations",
     },
     {
         name: "Javier Carrillo",
         image: "/images/headshots/Javier.JPG",
         linkedin: "https://www.linkedin.com/in/jcarrilloz/",
-        title: "Co-Director of Techical Operations",
+        title: "Co-Director of Technical Operations",
     },
     {
         name: "Ivy Enyenihi",
