@@ -5,50 +5,37 @@ const members = [
         name: "Mia Uy",
         image: "/images/headshots/Mia.JPG",
         linkedin: "https://www.linkedin.com/in/mia-uy-817a5827a/",
-        title: "Co-President",
+        title: "President",
     },
     {
-        name: "Zoey Lee",
-        image: "/images/headshots/Zoey.jpg",
-        linkedin: "https://www.linkedin.com/in/zoey-lee-876827279/",
-        title: "Co-President",
-    },
-    {
-        name: "Jared de Monteiro",
-        image: "/images/headshots/Jared.JPG",
-        linkedin: "https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/",
-        title: "Co-VP of Technical Development",
+        name: "Rick Howell",
+        image: "/images/headshots/Rick.JPG",
+        linkedin: "https://www.linkedin.com/in/rick-howell-0094b9204/",
+        title: "VP of Technical Development",
         web: "https://www.jareddemonteiro.me/",
     },
     {
-        name: "Nate Joseph",
-        image: "/images/headshots/Nate.JPG",
-        linkedin: "https://www.linkedin.com/in/nathanieljoseph/",
-        title: "Co-VP of Technical Development",
-        web: "https://natejoseph.me/",
-    },
-    {
-        name: "Laura Amore",
-        image: "/images/headshots/Laura.png",
-        linkedin: "https://www.linkedin.com/in/laura-amore-a937bb1bb/",
+        name: "Thomas Syndor",
+        image: "/images/headshots/beta/Thomas_S.JPG",
+        linkedin: "https://www.linkedin.com/in/thomas-sydnor-2119622b3/",
         title: "VP of Finance",
-    },
-    {
-        name: "Yassid Martinez",
-        image: "/images/headshots/Sid.JPG",
-        linkedin: "https://www.linkedin.com/in/yassid/",
-        title: "VP of Professional Development",
     },
     {
         name: "Sophia Knutson",
         image: "/images/headshots/Sophia.JPG",
         linkedin: "https://www.linkedin.com/in/sophia-knutson/",
+        title: "VP of Professional Development",
+    },
+    {
+        name: "Kaitlyn Landrove",
+        image: "/images/headshots/Kaitlyn.JPG",
+        linkedin: "https://www.linkedin.com/in/kaitlyn-landrove/",
         title: "VP of Marketing",
     },
     {
-        name: "Ella Khrapko",
-        image: "/images/headshots/Ella.JPG",
-        linkedin: "https://www.linkedin.com/in/ellakhrapko/",
+        name: "John L'Amoreaux",
+        image: "/images/headshots/John.JPG",
+        linkedin: "https://www.linkedin.com/in/johnlam12/",
         title: "VP of Social Engagement",
     },
     {
@@ -58,10 +45,10 @@ const members = [
         title: "VP of Internal Affairs",
     },
     {
-        name: "Devon Mason",
-        image: "/images/headshots/Devon.JPG",
-        linkedin: "https://www.linkedin.com/in/devonjmason/",
-        title: "VP of External Affairs",
+        name: "Youssof Alwardany",
+        image: "/images/headshots/Youssof.JPG",
+        linkedin: "https://www.linkedin.com/in/youssof-alwardany-b23161244/",
+        title: "VP of Recruitment",
     },
 ];
 
@@ -72,11 +59,11 @@ export default function Eboard() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"
             >
-                <div className="grid grid-cols-2 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-5 xl:grid-cols-5 xl:gap-x-8">
+                <div className="flex flex-row flex-wrap felx-auto gap-y-10 gap-x-6 justify-center">
                     {members.map((member) => (
                         <div
                             key={member.name}
-                            className="group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
+                            className=" sm:basis-1/3 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         >
                             <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                                 <Image

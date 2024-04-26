@@ -64,6 +64,7 @@ export default function Timeline() {
                         }}
                         icon={
                             <Image
+                                alt=""
                                 src={event.imageSrc}
                                 width={event.size}
                                 height={event.size}
