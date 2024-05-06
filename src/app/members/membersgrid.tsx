@@ -20,6 +20,7 @@ const members = [
         name: "Javier Carrillo",
         image: "/images/headshots/Javier.JPG",
         linkedin: "https://www.linkedin.com/in/jcarrilloz/",
+        web: "https://javiiicz.github.io",
     },
     {
         name: "Jared de Monteiro",

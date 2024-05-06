@@ -45,6 +45,12 @@ const members = [
         title: "VP of Internal Affairs",
     },
     {
+        name: "Devon Mason",
+        image: "/images/headshots/Devon.JPG",
+        linkedin: "https://www.linkedin.com/in/devonjmason/",
+        title: "VP of External Affairs",
+    },
+    {
         name: "Youssof Alwardany",
         image: "/images/headshots/Youssof.JPG",
         linkedin: "https://www.linkedin.com/in/youssof-alwardany-b23161244/",
@@ -63,7 +69,7 @@ export default function Eboard() {
                     {members.map((member) => (
                         <div
                             key={member.name}
-                            className="shrink basis-full sm:basis-1/4 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
+                            className="shrink basis-full sm:basis-1/4 lg:basis-1/6 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
                         >
                             <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-1 xl:aspect-h-1">
                                 <Image

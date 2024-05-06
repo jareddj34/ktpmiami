@@ -36,6 +36,7 @@ const members = [
         name: "Javier Carrillo",
         image: "/images/headshots/Javier.JPG",
         linkedin: "https://www.linkedin.com/in/jcarrilloz/",
+        web: "https://javiiicz.github.io",
         title: "Co-Director of Technical Operations",
     },
     {
@@ -44,6 +45,12 @@ const members = [
         linkedin: "www.linkedin.com/in/ivy-enyenihi",
         title: "Director of Membership",
     },
+    {
+        name: "Sidney Cocimano",
+        image: "/images/headshots/beta/Sidney_C.JPG",
+        linkedin: "www.linkedin.com/in/sidneycocimano",
+        title: "Director of Women's Empowerment",
+    }
 ];
 
 export default function Gboard() {
