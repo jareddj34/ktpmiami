@@ -12,7 +12,6 @@ const members = [
         image: "/images/headshots/Rick.JPG",
         linkedin: "https://www.linkedin.com/in/rick-howell-0094b9204/",
         title: "VP of Technical Development",
-        web: "https://www.jareddemonteiro.me/",
     },
     {
         name: "Thomas Syndor",
