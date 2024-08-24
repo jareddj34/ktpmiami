@@ -293,14 +293,15 @@ const Navbar: React.FC = () => {
                     >
                         Rush
                     </Link>
-
-                    <Link
+                    
+                    {/* Uncoment when ready */}
+                    {/* <Link
                         href="/uhack"
                         style={{ fontSize: "22px" }}
                         className="hover:text-gray-300"
                     >
                         UHack
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
