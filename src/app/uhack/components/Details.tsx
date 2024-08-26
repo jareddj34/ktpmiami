@@ -10,7 +10,7 @@ export default function Details () {
 
             <div className="py-2">
                 <h4 className="text-xl font-bold">Costs</h4>
-                <p>We're committed to keeping UHack accessible. While a $10-$20 fee may be considered, our goal is to keep the event free for all participants.</p>
+                <p>We are committed to keeping UHack accessible. While a $10-$20 fee may be considered, our goal is to keep the event free for all participants.</p>
             </div>
 
             <div className="py-2">
