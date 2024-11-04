@@ -6,7 +6,7 @@ export default function Rush() {
     return (
         <>
             <h1 className="flex justify-center text-center text-5xl mt-4 font-bold">
-                Rush Fall 2024!
+                Rush Spring 2025!
             </h1>
 
             <p className="flex justify-center text-center text-lg mt-8">
@@ -14,7 +14,7 @@ export default function Rush() {
                 who have a passion for tech.
             </p>
             <p className="text-lg text-center mt-4">
-                Rush has been closed for the Spring. Make sure to follow us on{" "}
+                Rush has been closed for the Fall. Make sure to follow us on{" "}
                 <a
                     className="text-blue-500"
                     href="https://www.instagram.com/ktp.umiami/"
@@ -23,7 +23,7 @@ export default function Rush() {
                 >
                     Instagram
                 </a>{" "}
-                for updates about next Fall.
+                for updates about next Spring.
             </p>
 
             <h1 className="flex justify-center text-4xl mt-20 mb-5 font-bold">
