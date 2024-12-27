@@ -1,7 +1,7 @@
 export const members = [
     {
         name: "Youssof Alwardany",
-        image: "/images/headshots/founding/Youssof.JPG",
+        image: "/images/headshots/alpha/Youssof.JPG",
         linkedin: "https://www.linkedin.com/in/youssof-alwardany-b23161244/",
     },
     {
@@ -35,11 +35,6 @@ export const members = [
         name: "Julian Estrada",
         image: "/images/headshots/alpha/Julian.JPG",
         linkedin: "https://www.linkedin.com/in/julian-estrada/",
-    },
-    {
-        name: "Cole Foster",
-        image: "/images/headshots/alpha/Cole.JPG",
-        linkedin: "https://www.linkedin.com/in/cole-michael-foster/",
     },
     {
         name: "Sebastian Gonzales-Portillo",
@@ -78,19 +73,9 @@ export const members = [
         linkedin: "https://www.linkedin.com/in/sophia-knutson/",
     },
     {
-        name: "John L'Amoreaux",
-        image: "/images/headshots/alpha/John.JPG",
-        linkedin: "https://www.linkedin.com/in/johnlam12/",
-    },
-    {
         name: "Kaitlyn Landrove",
         image: "/images/headshots/alpha/Kaitlyn.JPG",
         linkedin: "https://www.linkedin.com/in/kaitlyn-landrove/",
-    },
-    {
-        name: "Zoey Lee",
-        image: "/images/headshots/founding/Zoey.jpg",
-        linkedin: "https://www.linkedin.com/in/zoeylee123/",
     },
     {
         name: "Yassid Martinez",
@@ -114,7 +99,7 @@ export const members = [
     },
     {
         name: "Kayleen Ramirez",
-        image: "/images/headshotsalpha//Kayleen.JPG",
+        image: "/images/headshots/alpha/Kayleen.JPG",
         linkedin: "https://www.linkedin.com/in/pkramirez/",
         web: "https://pkramirez.me/",
     },
@@ -124,11 +109,7 @@ export const members = [
         linkedin: "https://www.linkedin.com/in/carlos-rodriguez-b23b58299/",
         web: "https://carlosrod.me",
     },
-    {
-        name: "Taylor Shirk",
-        image: "/images/headshots/alpha/Taylor.JPG",
-        linkedin: "https://www.linkedin.com/in/taylor-shirk-81b248277/",
-    },
+    
     {
         name: "Stone Sparkes",
         image: "/images/headshots/alpha/Stone.JPG",
@@ -217,6 +198,101 @@ export const members = [
         image: "/images/headshots/beta/Hannah_B.JPG",
         linkedin: "https://www.linkedin.com/in/hannah-beattyy/",
     },
+    { 
+        name: "Alvin Lam", 
+        image: "/images/headshots/gamma/Alvin_L.JPG", 
+        linkedin: "https://www.linkedin.com/company/ktp-sigma/posts/?feedView=all" 
+    },
+    { 
+        name: "Benito Sandoval", 
+        image: "/images/headshots/gamma/Benito_S.JPG", 
+        linkedin: "https://www.linkedin.com/in/benito-sandoval-836464309/" 
+    },
+    { 
+        name: "Cedric Fine", 
+        image: "/images/headshots/gamma/Cedric_F.JPG", 
+        linkedin: "https://www.linkedin.com/in/cedric-fine-b9a852325/" 
+    },
+    { 
+        name: "Dhilan Fye", 
+        image: "/images/headshots/gamma/Dhilan_F.JPG", 
+        linkedin: "https://www.linkedin.com/in/dhilanfye/" 
+    },
+    { 
+        name: "Eden Pearson", 
+        image: "/images/headshots/gamma/Eden_P.JPG", 
+        linkedin: "https://www.linkedin.com/in/edenepearson/" 
+    },
+    { 
+        name: "Eris Osborne", 
+        image: "/images/headshots/gamma/Eris_O.JPG", 
+        linkedin: "https://www.linkedin.com/in/eris-osborne-727066337/" 
+    },
+    { 
+        name: "Gianna Scuteri", 
+        image: "/images/headshots/gamma/Gianna_S.JPG", 
+        linkedin: "https://www.linkedin.com/in/gianna-scuteri/" 
+    },
+    { 
+        name: "Grace Sousa", 
+        image: "/images/headshots/gamma/Grace_S.JPG", 
+        linkedin: "https://www.linkedin.com/in/grace-sousa-057b452a7/" 
+    },
+    { 
+        name: "Jacob Ahrens", 
+        image: "/images/headshots/gamma/Jacob_A.JPG", 
+        linkedin: "https://www.linkedin.com/in/jacob-ahrens/" 
+    },
+    { 
+        name: "Jake Riina", 
+        image: "/images/headshots/gamma/Jake_R.JPG", 
+        linkedin: "https://www.linkedin.com/in/jake-riina-010aa5249/" 
+    },
+    { 
+        name: "Jason Hugh", 
+        image: "/images/headshots/gamma/Jason_H.JPG", 
+        linkedin: "https://www.linkedin.com/in/jason-hugh-568449328/" 
+    },
+    { 
+        name: "Lucas Velasquez", 
+        image: "/images/headshots/gamma/Lucas_V.JPG", 
+        linkedin: "https://www.linkedin.com/in/um-lucas-velasquez/" 
+    },
+    { 
+        name: "Matisohn Huynh", 
+        image: "/images/headshots/gamma/Matisohn_H.JPG", 
+        linkedin: "https://www.linkedin.com/in/matisohn-huynh-41662228a/" 
+    },
+    { 
+        name: "Meagan Ali", 
+        image: "/images/headshots/gamma/Meagan_A.JPG", 
+        linkedin: "https://www.linkedin.com/in/meagan-ali/" 
+    },
+    { 
+        name: "Nailah James", 
+        image: "/images/headshots/gamma/Nailah_J.JPG", 
+        linkedin: "https://www.linkedin.com/in/nailahjames/" 
+    },
+    { 
+        name: "Olivia Haynes", 
+        image: "/images/headshots/gamma/Olivia_H.JPG", 
+        linkedin: "https://www.linkedin.com/in/olivia-haynes2026/" 
+    },
+    { 
+        name: "Pramiti Dubey", 
+        image: "/images/headshots/gamma/Pramiti_D.JPG", 
+        linkedin: "https://www.linkedin.com/in/pramiti-dubey/" 
+    },
+    { 
+        name: "Rex Fullerton", 
+        image: "/images/headshots/gamma/Rex_F.JPG", 
+        linkedin: "https://www.linkedin.com/in/rex-fullerton-/" 
+    },
+    { 
+        name: "Zakaria Djahed", 
+        image: "/images/headshots/gamma/Zak_D.JPG", 
+        linkedin: "https://www.linkedin.com/in/zakaria-djahed/" 
+    },
 ].sort((a, b) => {
     const lastNameA = a.name.split(" ")[1];
     const lastNameB = b.name.split(" ")[1];
@@ -231,9 +307,9 @@ export const eboard = [
         title: "President",
     },
     {
-        name: "Rick Howell",
-        image: "/images/headshots/alpha/Rick.JPG",
-        linkedin: "https://www.linkedin.com/in/rick-howell-0094b9204/",
+        name: "Matisohn Huynh",
+        image: "/images/headshots/gamma/Matisohn_H.JPG",
+        linkedin: "https://www.linkedin.com/in/matisohn-huynh-41662228a/",
         title: "VP of Technical Development",
     },
     {
@@ -255,10 +331,10 @@ export const eboard = [
         title: "VP of Marketing",
     },
     {
-        name: "John L'Amoreaux",
-        image: "/images/headshots/alpha/John.JPG",
-        linkedin: "https://www.linkedin.com/in/johnlam12/",
-        title: "VP of Social Engagement",
+        name: "Pramiti Dubey",
+        image: "/images/headshots/gamma/Pramiti_D.JPG",
+        linkedin: "https://www.linkedin.com/in/pramiti-dubey/",
+        title: "VP of Social Engagement"
     },
     {
         name: "Sofia Papa",
@@ -354,6 +430,21 @@ export const alumni = [
         name: "Rick Howell",
         image: "/images/headshots/alpha/Rick.JPG",
         linkedin: "https://www.linkedin.com/in/kappa-theta-pi-sigma-chapter/",
+    },
+    {
+        name: "Taylor Shirk",
+        image: "/images/headshots/alpha/Taylor.JPG",
+        linkedin: "https://www.linkedin.com/in/taylor-shirk-81b248277/",
+    },
+    {
+        name: "Cole Foster",
+        image: "/images/headshots/alpha/Cole.JPG",
+        linkedin: "https://www.linkedin.com/in/cole-michael-foster/",
+    },
+    {
+        name: "Zoey Lee",
+        image: "/images/headshots/founding/Zoey.jpg",
+        linkedin: "https://www.linkedin.com/in/zoeylee123/",
     },
 ].sort((a, b) => {
     const lastNameA = a.name.split(" ")[1];

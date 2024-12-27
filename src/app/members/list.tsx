@@ -49,7 +49,31 @@ export default function List() {
         { name: "Emma Soupharath", class: "Beta" },
         { name: "Thomas Sydnor", class: "Beta" },
         { name: "Rachel Tomasetti", class: "Beta" },
-    ];
+        // Gamma
+        { name: "Alvin Lam", class: "Gamma" },
+        { name: "Benito Sandoval", class: "Gamma" },
+        { name: "Cedric Fine", class: "Gamma" },
+        { name: "Dhilan Fye", class: "Gamma" },
+        { name: "Eden Pearson", class: "Gamma" },
+        { name: "Eris Osborne", class: "Gamma" },
+        { name: "Gianna Scuteri", class: "Gamma" },
+        { name: "Grace Sousa", class: "Gamma" },
+        { name: "Jacob Ahrens", class: "Gamma" },
+        { name: "Jake Riina", class: "Gamma" },
+        { name: "Jason Hugh", class: "Gamma" },
+        { name: "Lucas Velasquez", class: "Gamma" },
+        { name: "Matisohn Huynh", class: "Gamma" },
+        { name: "Meagan Ali", class: "Gamma" },
+        { name: "Nailah James", class: "Gamma" },
+        { name: "Olivia Haynes", class: "Gamma" },
+        { name: "Pramiti Dubey", class: "Gamma" },
+        { name: "Rex Fullerton", class: "Gamma" },
+        { name: "Zakaria Djahed", class: "Gamma" },
+    ].sort((a, b) => {
+        const lastNameA = a.name.split(" ").slice(-1)[0];
+        const lastNameB = b.name.split(" ").slice(-1)[0];
+        return lastNameA.localeCompare(lastNameB);
+      });
 
     return (
         <>
@@ -62,7 +86,7 @@ export default function List() {
                 id="list"
             >
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3 ml-10">
-                    {["Founders", "Alpha", "Beta"].map((memberClass) => (
+                    {["Founders", "Alpha", "Beta", "Gamma"].map((memberClass) => (
                         <div key={memberClass}>
                             <h1 className="text-xl font-bold">{memberClass}</h1>
                             <ul>
