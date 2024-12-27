@@ -1,61 +1,5 @@
 import Image from "next/image";
-
-const members = [
-    {
-        name: "Mia Uy",
-        image: "/images/headshots/Mia.JPG",
-        linkedin: "https://www.linkedin.com/in/mia-uy-817a5827a/",
-        title: "President",
-    },
-    {
-        name: "Rick Howell",
-        image: "/images/headshots/Rick.JPG",
-        linkedin: "https://www.linkedin.com/in/rick-howell-0094b9204/",
-        title: "VP of Technical Development",
-    },
-    {
-        name: "Thomas Syndor",
-        image: "/images/headshots/beta/Thomas_S.JPG",
-        linkedin: "https://www.linkedin.com/in/thomas-sydnor-2119622b3/",
-        title: "VP of Finance",
-    },
-    {
-        name: "Sophia Knutson",
-        image: "/images/headshots/Sophia.JPG",
-        linkedin: "https://www.linkedin.com/in/sophia-knutson/",
-        title: "VP of Professional Development",
-    },
-    {
-        name: "Kaitlyn Landrove",
-        image: "/images/headshots/Kaitlyn.JPG",
-        linkedin: "https://www.linkedin.com/in/kaitlyn-landrove/",
-        title: "VP of Marketing",
-    },
-    {
-        name: "John L'Amoreaux",
-        image: "/images/headshots/John.JPG",
-        linkedin: "https://www.linkedin.com/in/johnlam12/",
-        title: "VP of Social Engagement",
-    },
-    {
-        name: "Sofia Papa",
-        image: "/images/headshots/Papa.JPG",
-        linkedin: "https://www.linkedin.com/in/sofia-papa-16a4bb259/",
-        title: "VP of Internal Affairs",
-    },
-    {
-        name: "Devon Mason",
-        image: "/images/headshots/Devon.JPG",
-        linkedin: "https://www.linkedin.com/in/devonjmason/",
-        title: "VP of External Affairs",
-    },
-    {
-        name: "Youssof Alwardany",
-        image: "/images/headshots/Youssof.JPG",
-        linkedin: "https://www.linkedin.com/in/youssof-alwardany-b23161244/",
-        title: "VP of Recruitment",
-    },
-];
+import {eboard} from "./members"
 
 export default function Eboard() {
     return (
@@ -65,7 +9,7 @@ export default function Eboard() {
                 id="e-board"
             >
                 <div className="flex flex-row flex-wrap felx-auto gap-y-3 gap-x-6 justify-center">
-                    {members.map((member) => (
+                    {eboard.map((member) => (
                         <div
                             key={member.name}
                             className="shrink basis-full sm:basis-1/4 lg:basis-1/6 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"

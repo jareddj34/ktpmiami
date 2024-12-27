@@ -9,19 +9,19 @@ import {
 
 const members = [
     {
-        image: "/images/headshots/Sebastian.JPG",
+        image: "/images/headshots/alpha/Sebastian.JPG",
         name: "Sebastian Gonzales-Portillo",
         text: "KTP was the doorway to connecting me with so many smart, passionate, and down to Earth people within my field of interest. Having this community as a resource is indispensable.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/Kaitlyn.JPG",
+        image: "/images/headshots/alpha/Kaitlyn.JPG",
         name: "Kaitlyn Landrove",
         text: "KTP allows me to make friends and connections within my major, allowing for more opportunities and growth socially, professionally, and technically.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/Nate.JPG",
+        image: "/images/headshots/alpha/Nate.JPG",
         name: "Nate Joseph",
         text: "To me, KTP means that I have a group of friends that share similar professional interests with me that I really enjoy being around. To be a part of such a unique, smart, and fun group of people is what makes KTP, KTP.",
         status: "Current Member",

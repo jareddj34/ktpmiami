@@ -1,57 +1,5 @@
 import Image from "next/image";
-
-const members = [
-    {
-        name: "Sean Sweeney",
-        image: "/images/headshots/Sean.JPG",
-        linkedin: "https://www.linkedin.com/in/sean-sweeney-1b8b9a1b6/",
-        title: "Director of Philanthropy",
-    },
-    {
-        name: "Emma Soupharath",
-        image: "/images/headshots/beta/Emma_S.JPG",
-        linkedin: "https://www.linkedin.com/in/emmalina-soupharath/",
-        title: "Director of Merchandise and Strategy",
-    },
-    {
-        name: "Sebastian Gonzales-Portillo",
-        image: "/images/headshots/Sebastian.JPG",
-        linkedin: "https://www.linkedin.com/in/sebastian-gonzalez-portillo/",
-        title: "Co-Director of Member Education",
-    },
-    {
-        name: "Julian Estrada",
-        image: "/images/headshots/Julian.JPG",
-        linkedin: "https://www.linkedin.com/in/julian-estrada-2b1b3a1b6/",
-        title: "Co-Director of Member Education",
-    },
-    {
-        name: "Kayleen Ramirez",
-        image: "/images/headshots/Kayleen.JPG",
-        linkedin: "https://www.linkedin.com/in/pkramirez/",
-        web: "https://pkramirez.me/",
-        title: "Co-Director of Technical Operations",
-    },
-    {
-        name: "Javier Carrillo",
-        image: "/images/headshots/Javier.JPG",
-        linkedin: "https://www.linkedin.com/in/jcarrilloz/",
-        web: "https://javiiicz.github.io",
-        title: "Co-Director of Technical Operations",
-    },
-    {
-        name: "Ivy Enyenihi",
-        image: "/images/headshots/beta/Ivy_E.JPG",
-        linkedin: "www.linkedin.com/in/ivy-enyenihi",
-        title: "Director of Membership",
-    },
-    {
-        name: "Sidney Cocimano",
-        image: "/images/headshots/beta/Sidney_C.JPG",
-        linkedin: "www.linkedin.com/in/sidneycocimano",
-        title: "Director of Women's Empowerment",
-    }
-];
+import { gboard } from "./members";
 
 export default function Gboard() {
     return (
@@ -65,7 +13,7 @@ export default function Gboard() {
                 id="e-board"
             >
                 <div className="flex flex-row flex-wrap felx-auto gap-y-3 gap-x-6 justify-center">
-                    {members.map((member) => (
+                    {gboard.map((member) => (
                         <div
                             key={member.name}
                             className="shrink basis-full sm:basis-1/4 lg:basis-1/5 group relative transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-110 sm:transform"
