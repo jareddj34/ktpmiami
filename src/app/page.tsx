@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import "animate.css";
 import Hero from "@/components/Hero";
 import About from "./about/page";

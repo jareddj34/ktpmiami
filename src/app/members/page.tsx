@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import MembersGrid from "./membersgrid";
 import Eboard from "./eboard";
 import Gboard from "./gboard";

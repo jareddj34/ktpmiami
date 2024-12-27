@@ -5,7 +5,7 @@ import {
     VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const events = [
     {

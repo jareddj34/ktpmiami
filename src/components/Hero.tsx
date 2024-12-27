@@ -1,7 +1,7 @@
 "use client";
 
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import "animate.css";
 import { ParallaxScroll } from "./ui/parallax";
 import React, { useEffect, useState } from "react";

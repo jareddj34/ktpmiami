@@ -1,7 +1,7 @@
 "use client";
 
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import MemberCarousel from "@/components/MemberCarousel";
 import React, { useState, useEffect, useRef } from "react";
 
