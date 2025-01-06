@@ -39,9 +39,9 @@ export default function MemberCarousel() {
                                 <Image
                                     src={member.image}
                                     alt={member.name}
-                                    className="rounded-full mx-auto" // Add mx-auto class for centering on mobile
-                                    height={150}
-                                    width={150}
+                                    className="rounded-full object-cover mx-auto" // Add mx-auto class for centering on mobile
+                                    height={400}
+                                    width={400}
                                 />
 
                                 <div>
