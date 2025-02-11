@@ -29,15 +29,15 @@ export default function About() {
                     </p>
                 </div>
                 <div
-                    className="lg:ml-auto col-lg-7"
+                    className="lg:ml-auto"
                     style={{ marginTop: "90px" }}
                 >
                     <Image
                         src="/images/AlphaBeta.jpeg"
                         alt="Alpha and Beta Class picture"
-                        height={550}
                         width={550}
-                        className="rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
+                        height={400}
+                        className="rounded-xl bg-gray-900/5 fill object-conver shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                     />
                 </div>
             </div>

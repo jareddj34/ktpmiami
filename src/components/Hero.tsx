@@ -61,7 +61,7 @@ export default function Hero() {
                                 alt="Sophia holding the flag"
                                 height={800}
                                 width={800}
-                                className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
+                                className="w-full rounded-xl shadow-lg object-cover transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/sidsofandkay.jpeg"
@@ -75,7 +75,7 @@ export default function Hero() {
                                 alt="AHOT pic"
                                 height={750}
                                 width={800}
-                                className="w-full rounded-xl shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
+                                className="w-full rounded-xl shadow-lg object-cover transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                             />
                             <Image
                                 src="/images/katanpic.jpeg"
