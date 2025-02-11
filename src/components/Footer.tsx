@@ -48,7 +48,7 @@ export default function Footer() {
                             </svg>
                         </a>
                     </div>
-                    <p>
+                    {/* <p>
                         Website created by{" "}
                         <a
                             href="https://www.linkedin.com/in/jared-de-monteiro-60aa7925b/"
@@ -56,7 +56,7 @@ export default function Footer() {
                         >
                             <u>Jared de Monteiro</u>
                         </a>
-                    </p>
+                    </p> */}
                 </div>
             </footer>
         </>

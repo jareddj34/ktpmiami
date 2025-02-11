@@ -56,48 +56,60 @@ export default function Hero() {
                 <div className="hidden sm:block">
                     <div className="flex">
                         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 max-w-5xl mx-auto">
-                            <Image
-                                src="/images/SophiaFlag.JPG"
-                                alt="Sophia holding the flag"
-                                height={800}
-                                width={800}
-                                className="w-full rounded-xl shadow-lg object-cover transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
-                            <Image
-                                src="/images/sidsofandkay.jpeg"
-                                alt="Kayleen Andaiye Sofia and Sid"
-                                height={200}
-                                width={200}
-                                className="w-full rounded-xl object-cover shadow-lg mt-10 transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
-                            <Image
-                                src="/images/ahot.jpeg"
-                                alt="AHOT pic"
-                                height={750}
-                                width={800}
-                                className="w-full rounded-xl shadow-lg object-cover transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
-                            <Image
-                                src="/images/katanpic.jpeg"
-                                alt="Katan group"
-                                height={200}
-                                width={200}
-                                className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
-                            <Image
-                                src="/images/eboardpic.jpeg"
-                                alt="Board Bid Day"
-                                height={200}
-                                width={200}
-                                className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
-                            <Image
-                                src="/images/SoccerGame.JPG"
-                                alt="Soccer Game"
-                                height={200}
-                                width={200}
-                                className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
-                            />
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform">
+                                <Image
+                                    src="/images/SophiaFlag.JPG"
+                                    alt="Sophia holding the flag"
+                                    height={750}
+                                    width={500}
+                                    className="w-full rounded-xl shadow-lg object-cover"
+                                />
+                            </div>
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform mt-12">
+                                <Image
+                                    src="/images/sidsofandkay.jpeg"
+                                    alt="Kayleen Andaiye Sofia and Sid"
+                                    height={400}
+                                    width={500}
+                                    className="w-full rounded-xl object-cover shadow-lg mt-10"
+                                />
+                            </div>
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform">
+                                <Image
+                                    src="/images/ahot.jpeg"
+                                    alt="AHOT pic"
+                                    height={750}
+                                    width={500}
+                                    className="w-full rounded-xl shadow-lg object-cover"
+                                />
+                            </div>
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform mt-9">
+                                <Image
+                                    src="/images/katanpic.jpeg"
+                                    alt="Katan group"
+                                    height={400}
+                                    width={500}
+                                    className="mt-10 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                                />
+                            </div>
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform">
+                                <Image
+                                    src="/images/eboardpic.jpeg"
+                                    alt="Board Bid Day"
+                                    height={750}
+                                    width={500}
+                                    className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                                />
+                            </div>
+                            <div className="transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform mt-9">
+                                <Image
+                                    src="/images/SoccerGame.JPG"
+                                    alt="Soccer Game"
+                                    height={400}
+                                    width={500}
+                                    className="w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ export default function About() {
                     </p>
                 </div>
                 <div
-                    className="lg:ml-auto"
+                    className="lg:ml-auto transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
                     style={{ marginTop: "90px" }}
                 >
                     <Image
@@ -37,7 +37,7 @@ export default function About() {
                         alt="Alpha and Beta Class picture"
                         width={550}
                         height={400}
-                        className="rounded-xl bg-gray-900/5 fill object-conver shadow-lg transition sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:transform"
+                        className="rounded-xl bg-gray-900/5 fill object-conver shadow-lg"
                     />
                 </div>
             </div>
