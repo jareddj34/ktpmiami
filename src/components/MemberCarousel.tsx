@@ -26,6 +26,18 @@ const members = [
         text: "To me, KTP means that I have a group of friends that share similar professional interests with me that I really enjoy being around. To be a part of such a unique, smart, and fun group of people is what makes KTP, KTP.",
         status: "Current Member",
     },
+    {
+        image: "/images/headshots/founding/Jared.JPG",
+        name: "Jared de Monteiro",
+        text: "KTP has really helped me within my college experience. I have met so many great friends and learned so much that I will take with me for the rest of my life.",
+        status: "Current Member",
+    },
+    {
+        image: "/images/headshots/beta/Hannah_B.JPG",
+        name: "Hannah Beatty",
+        text: "KTP connected me to many smart, driven, and unique people at the university. I deeply appreciate KTP’s commitment to fostering community and providing opportunities.",
+        status: "Current Member",
+    }
 ];
 
 export default function MemberCarousel() {
