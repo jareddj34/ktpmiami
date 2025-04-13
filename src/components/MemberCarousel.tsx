@@ -9,31 +9,31 @@ import {
 
 const members = [
     {
-        image: "/images/headshots/alpha/Sebastian.JPG",
+        image: "/images/headshots/alpha/Sebastian.jpeg",
         name: "Sebastian Gonzales-Portillo",
         text: "KTP was the doorway to connecting me with so many smart, passionate, and down to Earth people within my field of interest. Having this community as a resource is indispensable.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/alpha/Kaitlyn.JPG",
+        image: "/images/headshots/alpha/Kaitlyn.jpeg",
         name: "Kaitlyn Landrove",
         text: "KTP allows me to make friends and connections within my major, allowing for more opportunities and growth socially, professionally, and technically.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/alpha/Nate.JPG",
+        image: "/images/headshots/alpha/Nate.jpeg",
         name: "Nate Joseph",
         text: "To me, KTP means that I have a group of friends that share similar professional interests with me that I really enjoy being around. To be a part of such a unique, smart, and fun group of people is what makes KTP, KTP.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/founding/Jared.JPG",
+        image: "/images/headshots/founding/Jared.jpeg",
         name: "Jared de Monteiro",
         text: "KTP has really helped me within my college experience. I have met so many great friends and learned so much that I will take with me for the rest of my life.",
         status: "Current Member",
     },
     {
-        image: "/images/headshots/beta/Hannah_B.JPG",
+        image: "/images/headshots/beta/Hannah_B.jpeg",
         name: "Hannah Beatty",
         text: "KTP connected me to many smart, driven, and unique people at the university. I deeply appreciate KTP’s commitment to fostering community and providing opportunities.",
         status: "Current Member",
