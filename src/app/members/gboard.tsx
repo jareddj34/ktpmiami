@@ -84,7 +84,7 @@ export default function Gboard() {
                                     height: "8rem",
                                 }}
                             >
-                                <h1 className="mt-2 text-md font-medium text-gray-700">
+                                <h1 className="mt-2 text-lg font-medium text-gray-700">
                                     {member.name}
                                 </h1>
                                 <p className="mt-1 text-md text-gray-900">

@@ -1,5 +1,5 @@
 import Image from "next/legacy/image";
-import {eboard} from "./members"
+import { eboard } from "./members";
 
 export default function Eboard() {
     return (
@@ -8,7 +8,7 @@ export default function Eboard() {
                 className="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-10"
                 id="e-board"
             >
-                <div className="flex flex-row flex-wrap felx-auto gap-y-3 gap-x-6 justify-center">
+                <div className="flex flex-row flex-wrap flex-auto gap-y-3 gap-x-6 justify-center">
                     {eboard.map((member) => (
                         <div
                             key={member.name}
@@ -78,10 +78,10 @@ export default function Eboard() {
                                     textOverflow: "ellipsis",
                                     whiteSpace: "normal",
                                     textAlign: "center",
-                                    height: "7rem",
+                                    height: "8rem",
                                 }}
                             >
-                                <h1 className="mt-2 text-md font-medium text-gray-700">
+                                <h1 className="mt-2 text-lg font-medium text-gray-700">
                                     {member.name}
                                 </h1>
                                 <p className="mt-1 text-md text-gray-900">
