@@ -400,9 +400,9 @@ export const gboard = [
         title: "Co-Director of Member Education",
     },
     {
-        name: "Julian Estrada",
-        image: "/images/headshots/alpha/Julian.jpeg",
-        linkedin: "https://www.linkedin.com/in/julian-estrada-2b1b3a1b6/",
+        name: "Reid Forst",
+        image: "/images/headshots/delta/Reid.jpeg",
+        linkedin: "https://www.linkedin.com/in/reid-forst/",
         title: "Co-Director of Member Education",
     },
     {
