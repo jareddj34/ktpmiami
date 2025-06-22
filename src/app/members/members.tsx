@@ -354,12 +354,12 @@ export const eboard = [
         linkedin: "https://www.linkedin.com/in/emmalina-soupharath/",
         title: "VP of Marketing",
     },
-    // {
-    //     name: "Pramiti Dubey",
-    //     image: "/images/headshots/gamma/Pramiti_D.jpeg",
-    //     linkedin: "https://www.linkedin.com/in/pramiti-dubey/",
-    //     title: "VP of Social Engagement"
-    // },
+    {
+        name: "Avery Kingsepp",
+        image: "/images/headshots/delta/Avery.jpeg",
+        linkedin: "https://www.linkedin.com/in/avery-kingsepp-89b3a8329/",
+        title: "VP of Social Engagement"
+    },
     {
         name: "Olaedo Umeh",
         image: "/images/headshots/delta/Ola.jpeg",
@@ -397,14 +397,14 @@ export const gboard = [
         name: "Odin Andrews",
         image: "/images/headshots/delta/Odin.jpeg",
         linkedin: "https://www.linkedin.com/in/odin-andrews-58808b353/",
-        title: "Co-Director of Member Education",
+        title: "Director of Member Education",
     },
-    {
-        name: "Reid Forst",
-        image: "/images/headshots/delta/Reid.jpeg",
-        linkedin: "https://www.linkedin.com/in/reid-forst/",
-        title: "Co-Director of Member Education",
-    },
+    // {
+    //     name: "Reid Forst",
+    //     image: "/images/headshots/delta/Reid.jpeg",
+    //     linkedin: "https://www.linkedin.com/in/reid-forst/",
+    //     title: "Co-Director of Member Education",
+    // },
     {
         name: "Jared de Monteiro",
         image: "/images/headshots/founding/Jared.jpeg",
@@ -418,12 +418,12 @@ export const gboard = [
     //     linkedin: "www.linkedin.com/in/ivy-enyenihi",
     //     title: "Director of Membership",
     // },
-    // {
-    //     name: "Sidney Cocimano",
-    //     image: "/images/headshots/beta/Sidney_C.jpeg",
-    //     linkedin: "www.linkedin.com/in/sidneycocimano",
-    //     title: "Director of Women's Empowerment",
-    // },
+    {
+        name: "Norah Csaki",
+        image: "/images/headshots/delta/Norah.jpeg",
+        linkedin: "https://www.linkedin.com/in/norah-csaki/",
+        title: "Director of Women's Empowerment",
+    },
 ];
 
 export const alumni = [

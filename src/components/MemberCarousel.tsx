@@ -8,22 +8,11 @@ import {
 } from "@/components/ui/carousel";
 
 const members = [
+
     {
-        image: "/images/headshots/alpha/Sebastian.jpeg",
-        name: "Sebastian Gonzales-Portillo",
-        text: "KTP was the doorway to connecting me with so many smart, passionate, and down to Earth people within my field of interest. Having this community as a resource is indispensable.",
-        status: "Current Member",
-    },
-    {
-        image: "/images/headshots/alpha/Kaitlyn.jpeg",
-        name: "Kaitlyn Landrove",
-        text: "KTP allows me to make friends and connections within my major, allowing for more opportunities and growth socially, professionally, and technically.",
-        status: "Current Member",
-    },
-    {
-        image: "/images/headshots/alpha/Nate.jpeg",
-        name: "Nate Joseph",
-        text: "To me, KTP means that I have a group of friends that share similar professional interests with me that I really enjoy being around. To be a part of such a unique, smart, and fun group of people is what makes KTP, KTP.",
+        image: "/images/headshots/beta/Hannah_B.jpeg",
+        name: "Hannah Beatty",
+        text: "KTP connected me to many smart, driven, and unique people at the university. I deeply appreciate KTP’s commitment to fostering community and providing opportunities.",
         status: "Current Member",
     },
     {
@@ -33,11 +22,19 @@ const members = [
         status: "Current Member",
     },
     {
-        image: "/images/headshots/beta/Hannah_B.jpeg",
-        name: "Hannah Beatty",
-        text: "KTP connected me to many smart, driven, and unique people at the university. I deeply appreciate KTP’s commitment to fostering community and providing opportunities.",
-        status: "Current Member",
-    }
+        image: "/images/headshots/alpha/Sebastian.jpeg",
+        name: "Sebastian Gonzales-Portillo",
+        text: "KTP was the doorway to connecting me with so many smart, passionate, and down to Earth people within my field of interest. Having this community as a resource is indispensable.",
+        status: "Former Member",
+    },
+    {
+        image: "/images/headshots/alpha/Kaitlyn.jpeg",
+        name: "Kaitlyn Landrove",
+        text: "KTP allows me to make friends and connections within my major, allowing for more opportunities and growth socially, professionally, and technically.",
+        status: "Former Member",
+    },
+    
+    
 ];
 
 export default function MemberCarousel() {
@@ -47,7 +44,7 @@ export default function MemberCarousel() {
                 {members.map((member, index) => (
                     <CarouselItem key={index}>
                         <div className="flex justify-center">
-                            <div className="flex flex-col sm:flex-row justify-center w-full sm:w-[600px] space-y-4 sm:space-y-0 sm:space-x-4">
+                            <div className="flex flex-col sm:flex-row justify-center w-full sm:w-[600px] space-y- sm:space-y-0 sm:space-x-4">
                                 <Image
                                     src={member.image}
                                     alt={member.name}

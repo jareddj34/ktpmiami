@@ -6,7 +6,7 @@ export default function Rush() {
     return (
         <>
             <h1 className="flex justify-center text-center text-5xl mt-4 font-bold">
-                Rush Spring 2025!
+                Rush Fall 2025!
             </h1>
 
             <p className="flex justify-center text-center text-lg mt-8">
