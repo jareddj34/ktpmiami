@@ -131,11 +131,7 @@ export const members = [
         image: "/images/headshots/beta/Thomas_S.jpeg",
         linkedin: "https://www.linkedin.com/in/thomas-sydnor-2119622b3/",
     },
-    {
-        name: "Anthony Santoro",
-        image: "/images/headshots/beta/Anthony_S.jpeg",
-        linkedin: "https://www.linkedin.com/in/anthony-santoro-aa2914162/",
-    },
+  
     {
         name: "Hannah Beatty",
         image: "/images/headshots/beta/Hannah_B.jpeg",
@@ -437,6 +433,11 @@ export const alumni = [
         name: "Kali Ryder",
         image: "/images/headshots/alpha/Kali.jpeg",
         linkedin: "https://www.linkedin.com/in/kaliryder/",
+    },
+    {
+        name: "Anthony Santoro",
+        image: "/images/headshots/beta/Anthony_S.jpeg",
+        linkedin: "https://www.linkedin.com/in/anthony-santoro-aa2914162/",
     },
     {
         name: "Sofia Perez-Baux",

@@ -14,7 +14,7 @@ export default function Rush() {
                 who have a passion for tech.
             </p>
             <p className="text-lg text-center mt-4">
-                Rush has been closed for the Fall. Make sure to follow us on{" "}
+                Make sure to follow us on{" "}
                 <a
                     className="text-blue-500"
                     href="https://www.instagram.com/ktp.umiami/"
@@ -23,7 +23,7 @@ export default function Rush() {
                 >
                     Instagram
                 </a>{" "}
-                for updates about next Spring.
+                for updates about next Fall.
             </p>
 
             <h1 className="flex justify-center text-4xl mt-20 mb-5 font-bold">
