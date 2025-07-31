@@ -39,9 +39,12 @@
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@types/node": "20.12.7",
+    "@types/node": "22.10.2",
     "@types/react": "18.2.79",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
