@@ -6,6 +6,7 @@ import About from "./about/page";
 import Eboard from "./members/eboard";
 import Members from "./members/page";
 import Rush from "./rush/page";
+import Blog from "./blog/page";
 import Link from "next/link";
 import {
     Accordion,
@@ -47,8 +48,11 @@ export default function Home() {
                     </AccordionItem>
                 </Accordion>
 
-                <hr className="mx-auto bg-black-500 h-px my-6 w-full" />
+                {/* <hr className="mx-auto bg-black-500 h-px my-6 w-full" /> */}
             </div>
+            {/* <div id="blog">
+                <Blog />
+            </div> */}
             <div className="mt-20" id="rush">
                 <Rush />
             </div>

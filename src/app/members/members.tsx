@@ -6,7 +6,7 @@ export const members = [
     },
     {
         name: "Laura Amore",
-        image: "/images/headshots/founding/Laura.jpeg",
+        image: "/images/headshots/founding/Laura.JPG",
         linkedin: "https://www.linkedin.com/in/laura-amore/",
     },
 

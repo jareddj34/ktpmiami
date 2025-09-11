@@ -6,7 +6,7 @@ export default function Rush() {
     return (
         <>
             <h1 className="flex justify-center text-center text-5xl mt-4 font-bold">
-                Rush Fall 2025!
+                Rush Spring 2026!
             </h1>
 
             <p className="flex justify-center text-center text-lg mt-8">
@@ -23,7 +23,7 @@ export default function Rush() {
                 >
                     Instagram
                 </a>{" "}
-                for updates about next Fall.
+                for updates about next Spring.
             </p>
 
             <h1 className="flex justify-center text-4xl mt-20 mb-5 font-bold">
