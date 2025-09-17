@@ -16,6 +16,12 @@ const members = [
         status: "Current Member",
     },
     {
+        image: "/images/headshots/delta/Andy.jpeg",
+        name: "Andy Dietel",
+        text: "KTP introduced me to such a supportive community of passionate, tech-driven people. Since joining, I've grown so much as a student and a profressional, and I've made some great friends along the way.",
+        status: "Current Member",
+    },
+    {
         image: "/images/headshots/founding/Jared.jpeg",
         name: "Jared de Monteiro",
         text: "KTP has really helped me within my college experience. I have met so many great friends and learned so much that I will take with me for the rest of my life.",
@@ -39,38 +45,44 @@ const members = [
 
 export default function MemberCarousel() {
     return (
-        <Carousel className="w-4/5 sm:w-1/2">
-            <CarouselContent>
-                {members.map((member, index) => (
-                    <CarouselItem key={index}>
-                        <div className="flex justify-center">
-                            <div className="flex flex-col sm:flex-row justify-center w-full sm:w-[600px] space-y- sm:space-y-0 sm:space-x-4">
-                                <Image
-                                    src={member.image}
-                                    alt={member.name}
-                                    className="rounded-full object-cover mx-auto" // Add mx-auto class for centering on mobile
-                                    height={400}
-                                    width={400}
-                                />
+        <>
+            <Carousel className="w-4/5 sm:w-1/2">
+                <CarouselContent>
+                    {members.map((member, index) => (
+                        <CarouselItem key={index}>
+                            <div className="flex justify-center items-center" key={index}>
+                                <div className="flex flex-col sm:flex-row items-center w-full sm:w-[600px] space-y-4 sm:space-y-0 sm:space-x-4">
+                                    {/* Image container with fixed size and aspect ratio */}
+                                    <div className="relative w-[150px] h-[150px] mx-auto rounded-full overflow-hidden shrink-0">
+                                        <Image
+                                            src={member.image}
+                                            alt={member.name}
+                                            layout="fill"
+                                            className="object-cover"
+                                        />
+                                    </div>
 
-                                <div>
-                                    <h1 className="text-center sm:text-left text-lg font-bold">
-                                        {member.name}
-                                    </h1>
-                                    <p className="text-center sm:text-left text-gray-600">
-                                        {member.status}
-                                    </p>
-                                    <p className="text-center sm:text-left">
-                                        {member.text}
-                                    </p>
+                                    {/* Div for text content, now aligning items to the start on larger screens */}
+                                    <div className="flex flex-col">
+                                        <h1 className="text-center sm:text-left text-lg font-bold">
+                                            {member.name}
+                                        </h1>
+                                        <p className="text-center sm:text-left text-gray-600">
+                                            {member.status}
+                                        </p>
+                                        <p className="text-center sm:text-left">
+                                            {member.text}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </CarouselItem>
-                ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-        </Carousel>
+                        </CarouselItem>
+                    ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel>
+            
+        </>
     );
 }
