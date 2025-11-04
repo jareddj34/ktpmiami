@@ -109,7 +109,7 @@ export const members = [
     {
         name: "Caitlin Raymond",
         image: "/images/headshots/beta/Caitlin_R.jpeg",
-        linkedin: "www.linkedin.com/in/caitlinaraymond",
+        linkedin: "https://www.linkedin.com/in/caitlinaraymond/",
     },
     {
         name: "Ivy Enyenihi",
@@ -218,11 +218,7 @@ export const members = [
         image: "/images/headshots/gamma/Olivia_H.jpeg",
         linkedin: "https://www.linkedin.com/in/olivia-haynes2026/",
     },
-    {
-        name: "Pramiti Dubey",
-        image: "/images/headshots/gamma/Pramiti_D.jpeg",
-        linkedin: "https://www.linkedin.com/in/pramiti-dubey/",
-    },
+
     {
         name: "Rex Fullerton",
         image: "/images/headshots/gamma/Rex_F.jpeg",
@@ -303,11 +299,7 @@ export const members = [
         image: "/images/headshots/delta/Reid.jpeg",
         linkedin: "https://www.linkedin.com/in/reid-forst/",
     },
-    {
-        name: "Yu Ning Kao",
-        image: "/images/headshots/delta/YN.jpeg",
-        linkedin: "https://www.linkedin.com/in/yu-ning-kao-136739292/",
-    },
+    
     {
         name: "Georgia Furman",
         image: "/images/headshots/delta/Georgia.jpeg",
@@ -408,12 +400,12 @@ export const gboard = [
         web: "https://www.jareddemonteiro.me/",
         title: "Director of Technical Operations",
     },
-    // {
-    //     name: "Ivy Enyenihi",
-    //     image: "/images/headshots/beta/Ivy_E.jpeg",
-    //     linkedin: "www.linkedin.com/in/ivy-enyenihi",
-    //     title: "Director of Membership",
-    // },
+    {
+        name: "Caitlin Raymond",
+        image: "/images/headshots/beta/Caitlin_R.jpeg",
+        linkedin: "https://www.linkedin.com/in/caitlinaraymond/",
+        title: "Director of Membership",
+    },
     {
         name: "Norah Csaki",
         image: "/images/headshots/delta/Norah.jpeg",
@@ -524,6 +516,16 @@ export const alumni = [
         name: "Mason Muscarello",
         image: "/images/headshots/alpha/Mason.jpeg",
         linkedin: "https://www.linkedin.com/in/mason-muscarello/",
+    },
+    {
+        name: "Pramiti Dubey",
+        image: "/images/headshots/gamma/Pramiti_D.jpeg",
+        linkedin: "https://www.linkedin.com/in/pramiti-dubey/",
+    },
+    {
+        name: "Yu Ning Kao",
+        image: "/images/headshots/delta/YN.jpeg",
+        linkedin: "https://www.linkedin.com/in/yu-ning-kao-136739292/",
     },
 ].sort((a, b) => {
     const lastNameA = a.name.split(" ")[1];
