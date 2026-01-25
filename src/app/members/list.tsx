@@ -86,6 +86,20 @@ export default function List() {
         { name: "Paige Swarthout", class: "Delta" },
         { name: "Reid Forst", class: "Delta" },
         { name: "Yu Ning Kao", class: "Delta" },
+        // Epsilon
+        { name: "Ella Hartsell", class: "Epsilon" },
+        { name: "Elijah Corpuz", class: "Epsilon" },
+        { name: "Orel Stein", class: "Epsilon" },
+        { name: "Zara Bitonti-Rivero", class: "Epsilon" },
+        { name: "Adam Cannizzo", class: "Epsilon" },
+        { name: "Estuardo Alejandre Mar", class: "Epsilon" },
+        { name: "Everett Miller", class: "Epsilon" },
+        { name: "Gita Wagle", class: "Epsilon" },
+        { name: "Ciara Escalante", class: "Epsilon" },
+        { name: "Jt Moriarty", class: "Epsilon" },
+        { name: "William Oliver", class: "Epsilon" },
+        { name: "Sebastian Rivas", class: "Epsilon" },
+        { name: "Isabella Song", class: "Epsilon" },
     ].sort((a, b) => {
         const lastNameA = a.name.split(" ").slice(-1)[0];
         const lastNameB = b.name.split(" ").slice(-1)[0];
@@ -103,7 +117,7 @@ export default function List() {
                 id="list"
             >
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3 ml-10">
-                    {["Founders", "Alpha", "Beta", "Gamma","Delta"].map((memberClass) => (
+                    {["Founders", "Alpha", "Beta", "Gamma","Delta", "Epsilon"].map((memberClass) => (
                         <div key={memberClass}>
                             <h1 className="text-xl font-bold">{memberClass}</h1>
                             <ul>

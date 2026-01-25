@@ -305,6 +305,73 @@ export const members = [
         image: "/images/headshots/delta/Georgia.jpeg",
         linkedin: "https://www.linkedin.com/in/georgiafurman/",
     },
+    // Epsilon
+    {
+        name: "Ella Hartsell",
+        image: "/images/headshots/epsilon/Ella_Hartsell.jpg",
+        linkedin: "https://www.linkedin.com/in/ella-hartsell/",
+    },
+    {
+        name: "Elijah Corpuz",
+        image: "/images/headshots/epsilon/Elijah_Corpuz.jpg",
+        linkedin: "https://www.linkedin.com/in/elijah-corpuz/",
+    },
+    {
+        name: "Orel Stein",
+        image: "/images/headshots/epsilon/Orel_Stein.jpg",
+        linkedin: "https://www.linkedin.com/in/orel-stein/",
+    },
+    {
+        name: "Zara Bitonti-Rivero",
+        image: "/images/headshots/epsilon/Zara_Bitonti-Rivero.jpg",
+        linkedin: "https://www.linkedin.com/in/zara-bitonti-rivero-337739360/",
+    },
+    {
+        name: "Adam Cannizzo",
+        image: "/images/headshots/epsilon/Adam_Cannizzo.jpg",
+        linkedin: "https://www.linkedin.com/in/adam-cannizzo/",
+    },
+    {
+        name: "Estuardo Alejandre Mar",
+        image: "/images/headshots/epsilon/Estuardo_Alejandre-Mar.jpg",
+        linkedin: "https://www.linkedin.com/in/estuardoalejandremar/",
+    },
+    {
+        name: "Everett Miller",
+        image: "/images/headshots/epsilon/Everett_Miller.jpg",
+        linkedin: "https://www.linkedin.com/in/everettmiller/",
+    },
+    {
+        name: "Gita Wagle",
+        image: "/images/headshots/epsilon/Gita_Wagle.jpg",
+        linkedin: "https://www.linkedin.com/in/gita-wagle-b1866a184/",
+    },
+    {
+        name: "Ciara Escalante",
+        image: "/images/headshots/epsilon/Ciara_Escalante.jpg",
+        linkedin: "https://www.linkedin.com/in/ciara-escalante-663750385/",
+    },
+    {
+        name: "Jt Moriarty",
+        image: "/images/headshots/epsilon/Jt_Moriarty.jpg",
+        linkedin: "https://www.linkedin.com/in/jerald-moriarty-309176354/",
+    },
+    {
+        name: "William Oliver",
+        image: "/images/headshots/epsilon/William_Oliver.png",
+        linkedin: "https://www.linkedin.com/in/william-oliver-506018377/",
+    },
+    {
+        name: "Sebastian Rivas",
+        image: "/images/headshots/epsilon/Sebastian_Rivas.jpg",
+        linkedin: "https://www.linkedin.com/in/sebastianjrivas/",
+    },
+    {
+        name: "Isabella Song",
+        image: "/images/headshots/epsilon/Isabella_Song.jpg",
+        linkedin: "https://www.linkedin.com/in/isabellassong/",
+    },
+
 ].sort((a, b) => {
     const lastNameA = a.name.split(" ")[a.name.split(" ").length - 1];
     const lastNameB = b.name.split(" ")[b.name.split(" ").length - 1];
