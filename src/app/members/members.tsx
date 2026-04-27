@@ -320,6 +320,8 @@ export const members = [
         name: "Orel Stein",
         image: "/images/headshots/epsilon/Orel_Stein.jpg",
         linkedin: "https://www.linkedin.com/in/orel-stein/",
+        web: "https://orelstein.com/",
+
     },
     {
         name: "Zara Bitonti-Rivero",
