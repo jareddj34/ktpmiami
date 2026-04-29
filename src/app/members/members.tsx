@@ -310,6 +310,7 @@ export const members = [
         name: "Ella Hartsell",
         image: "/images/headshots/epsilon/Ella_Hartsell.jpg",
         linkedin: "https://www.linkedin.com/in/ella-hartsell/",
+        web: "https://ellahartsell.lovable.app/",
     },
     {
         name: "Elijah Corpuz",
