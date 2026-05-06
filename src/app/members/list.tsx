@@ -100,11 +100,26 @@ export default function List() {
         { name: "William Oliver", class: "Epsilon" },
         { name: "Sebastian Rivas", class: "Epsilon" },
         { name: "Isabella Song", class: "Epsilon" },
+        // Zeta
+        { name: "Alissa Stepanova", class: "Zeta" },
+        { name: "Angelika Melnik", class: "Zeta" },
+        { name: "Chandler Haney", class: "Zeta" },
+        { name: "Dillan Varela Zelaya", class: "Zeta" },
+        { name: "Hugo Camacho", class: "Zeta" },
+        { name: "Israela Kriebel", class: "Zeta" },
+        { name: "Jisela Newman", class: "Zeta" },
+        { name: "Joseph Buckard", class: "Zeta" },
+        { name: "Maggie Pan", class: "Zeta" },
+        { name: "Matthew Lopez", class: "Zeta" },
+        { name: "Michael Naas", class: "Zeta" },
+        { name: "Paloma Alonso", class: "Zeta" },
+        { name: "Paola Leon", class: "Zeta" },
+        { name: "Veronica Alvarez", class: "Zeta" },
     ].sort((a, b) => {
         const lastNameA = a.name.split(" ").slice(-1)[0];
         const lastNameB = b.name.split(" ").slice(-1)[0];
         return lastNameA.localeCompare(lastNameB);
-      });
+    });
 
     return (
         <>
@@ -117,7 +132,7 @@ export default function List() {
                 id="list"
             >
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-20 lg:grid-cols-3 ml-10">
-                    {["Founders", "Alpha", "Beta", "Gamma","Delta", "Epsilon"].map((memberClass) => (
+                    {["Founders", "Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta"].map((memberClass) => (
                         <div key={memberClass}>
                             <h1 className="text-xl font-bold">{memberClass}</h1>
                             <ul>
