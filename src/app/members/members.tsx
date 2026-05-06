@@ -40,7 +40,7 @@ export const members = [
     // Gamma
     {
         name: "Cedric Fine",
-        image: "/images/headshots/gamma/Cedric_Fine.jpg",
+        image: "/images/headshots/gamma/Cedric_Fine2.jpg",
         linkedin: "https://www.linkedin.com/in/cedric-fine-b9a852325/",
     },
     {
