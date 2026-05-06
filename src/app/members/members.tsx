@@ -29,7 +29,7 @@ export const members = [
     },
     {
         name: "Sabrina Perron-Vega",
-        image: "/images/headshots/beta/Sabrina_P.jpeg",
+        image: "/images/headshots/beta/Sabrina_Perron-Vega.JPG",
         linkedin: "https://www.linkedin.com/in/s-p-v-m09234/",
     },
     {
@@ -40,7 +40,7 @@ export const members = [
     // Gamma
     {
         name: "Cedric Fine",
-        image: "/images/headshots/gamma/Cedric_F.jpeg",
+        image: "/images/headshots/gamma/Cedric_Fine.jpg",
         linkedin: "https://www.linkedin.com/in/cedric-fine-b9a852325/",
     },
     {
@@ -568,7 +568,7 @@ export const alumni = [
     },
     {
         name: "Sidney Cocimano",
-        image: "/images/headshots/beta/Sidney_C.jpeg",
+        image: "/images/headshots/beta/Sidney_Cocimano.JPG",
         linkedin: "www.linkedin.com/in/sidneycocimano",
     },
     // Gamma
