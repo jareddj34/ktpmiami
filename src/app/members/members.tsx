@@ -310,7 +310,7 @@ export const eboard = [
     },
     {
         name: "Cedric Fine",
-        image: "/images/headshots/gamma/Cedric_F.jpeg",
+        image: "/images/headshots/gamma/Cedric_Fine2.jpg",
         linkedin: "https://www.linkedin.com/in/cedric-fine-b9a852325/",
         title: "VP of Recruitment",
     },
